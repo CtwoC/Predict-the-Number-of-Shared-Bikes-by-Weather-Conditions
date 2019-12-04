@@ -10,7 +10,7 @@ from selenium.common.exceptions import TimeoutException
 import re
 
 #%%
-driver = webdriver.Chrome('/Users/chenzichu/Desktop/Adwin Lo/GWU_classes/DATS_6103_DataMining/Class08_WebScraping/chromedriver')
+driver = webdriver.Chrome('/Users/yukaiqi/Downloads/chromedriver')
 try:
     driver.get("https://www.wunderground.com/history/daily/us/va/arlington-county/KDCA/date/2017-1-1")
     sleep(20)
@@ -18,6 +18,15 @@ try:
 except TimeoutException as ex:
    print(ex.Message)
    webDriver.navigate().refresh()
+
+
+#%%
+tables = soup.findAll('table')
+tab = tables[2]
+for tr in tab.tbody.findAll('tr'):
+    for td in tr.findAll('td'):
+        text = td.getText() + '\n'
+        print(text)
 
 #%%
 testWeatherData = pd.DataFrame( columns=['date','time','temp','humidity','windspeed'])
