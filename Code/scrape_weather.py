@@ -20,8 +20,6 @@ import re
 #    webDriver.navigate().refresh()
 
 
-
-
 #%%
 
 def get_table(soup):
@@ -121,7 +119,7 @@ def cleanDfTime(row):
     return np.nan
 
 #%%
-Weather.columns = ['drop', 'time', 'TF', 'Humidity', 'Windspeed', 'weather', 'Date']
+Weather.columns = ['drop', 'time', 'TF', 'Humidity', 'WindSpeed', 'weather', 'Date']
 Weather['hour'] = Weather.apply(cleanDfTime, axis = 1)
 Weather = Weather.drop(columns = ['drop', 'time'])
 Weather = Weather.dropna()
