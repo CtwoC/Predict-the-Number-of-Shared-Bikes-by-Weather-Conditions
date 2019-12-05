@@ -8,6 +8,9 @@ from sklearn.model_selection import train_test_split  # Import train_test_split
 from sklearn.metrics import mean_squared_error as MSE  # Import mean_squared_error as MSE
 from sklearn import linear_model
 
+# Import DecisionTreeClassifier
+from sklearn.tree import DecisionTreeClassifier
+
 #%%
 # load file
 dc = pd.read_csv("hour.csv")
@@ -27,48 +30,48 @@ dc= pd.concat([dc, Season_dummies], axis=1)
 
 #%%
 # regression tree
-# Part A:
+# Part A: (Y~CNT, X~ALL DAYS)
 # Prepare our X data (features, predictors, regressors) and y data (target, dependent variable)
 
-xdc = dc[['s_1', 's_2', 's_3', 'holiday', 'workingday', 'TF', 'Humidity']]
-ydc = dc['cnt']
+xdc_A = dc[['s_1', 's_2', 's_3', 'hour','holiday','WindSpeed', 'workingday', 'TF', 'Humidity']]
+ydc_A = dc['cnt']
 
 # Split dataset into 80% train, 20% test
-X_train, X_test, y_train, y_test= train_test_split(xdc, ydc, test_size=0.2, random_state=1)
+X_train, X_test, y_train, y_test= train_test_split(xdc_A, ydc_A, test_size=0.2, random_state=1)
 
 #%%
 # seaborn plot
 import seaborn as sns
 sns.set()
-sns.pairplot(xdc)
+sns.pairplot(xdc_A)
 
 #%%
 # Instantiate a DecisionTreeRegressor 'regtree0'
-regtree0 = DecisionTreeRegressor(max_depth=4, min_samples_leaf=0.05,random_state=22) # set minimum leaf to contain at least 10% of data points
+regtree1 = DecisionTreeRegressor(max_depth=4, min_samples_leaf=0.05,random_state=22) # set minimum leaf to contain at least 10% of data points
 
 # Fit regtree0 to the training set
-regtree0.fit(X_train, y_train)  
+regtree1.fit(X_train, y_train)  
 
 # evaluation
-y_pred = regtree0.predict(X_test)  # Compute y_pred
-mse_regtree0 = MSE(y_test, y_pred)  # Compute mse_regtree0
-rmse_regtree0 = mse_regtree0 ** (.5) # Compute rmse_regtree0
-print("Test set RMSE of regtree0: {:.2f}".format(rmse_regtree0))
+y_pred1 = regtree1.predict(X_test)  # Compute y_pred
+mse_regtree1 = MSE(y_test, y_pred1)  # Compute mse_regtree1
+rmse_regtree1 = mse_regtree1 ** (.5) # Compute rmse_regtree1
+print("Test set RMSE of regtree1: {:.2f}".format(rmse_regtree1))
 
 
 # %%
 # Let us compare the performance with OLS
 
-olspizza = linear_model.LinearRegression() 
-olspizza.fit( X_train, y_train )
+olsdc1 = linear_model.LinearRegression() 
+olsdc1.fit( X_train, y_train )
 
-y_pred_ols = olspizza.predict(X_test)  # Predict test set labels/values
+y_pred_ols1 = olsdc1.predict(X_test)  # Predict test set labels/values
 
-mse_ols = MSE(y_test, y_pred_ols)  # Compute mse_ols
-rmse_ols = mse_ols**(0.5)  # Compute rmse_ols
+mse_ols1 = MSE(y_test, y_pred_ols1)  # Compute mse_ols
+rmse_ols1 = mse_ols1**(0.5)  # Compute rmse_ols
 
-print('Linear Regression test set RMSE: {:.2f}'.format(rmse_ols))
-print('Regression Tree test set RMSE: {:.2f}'.format(rmse_regtree0))
+print('Linear Regression test set RMSE1: {:.2f}'.format(rmse_ols1))
+print('Regression Tree test set RMSE1: {:.2f}'.format(rmse_regtree1))
 
 #
 #%%
@@ -79,26 +82,326 @@ regtree1 = DecisionTreeRegressor(max_depth=10, min_samples_leaf=0.022, random_st
 # Evaluate the list of MSE ontained by 10-fold CV
 from sklearn.model_selection import cross_val_score
 # Set n_jobs to -1 in order to exploit all CPU cores in computation
-MSE_CV = - cross_val_score(regtree1, X_train, y_train, cv= 10, scoring='neg_mean_squared_error', n_jobs = -1)
+MSE_CV1 = - cross_val_score(regtree1, X_train, y_train, cv= 10, scoring='neg_mean_squared_error', n_jobs = -1)
 regtree1.fit(X_train, y_train)  # Fit 'regtree1' to the training set
 y_predict_train = regtree1.predict(X_train)  # Predict the labels of training set
 y_predict_test = regtree1.predict(X_test)  # Predict the labels of test set
 
-print('CV RMSE:', MSE_CV.mean()**(0.5) )  #CV MSE 
-print('Training set RMSE:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
-print('Test set RMSE:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE 
+print('CV RMSE1:', MSE_CV1.mean()**(0.5) )  #CV MSE 
+print('Training set RMSE1:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
+print('Test set RMSE1:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE 
 
 #%%
-print('Training set RMSE:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
-print('Test set RMSE:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE print('CV RMSE:', MSE_CV.mean()**(0.5) )  #CV MSE 
-print('Training set RMSE:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
-print('Test set RMSE:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE 
+print('Training set RMSE1:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
+print('Test set RMSE1:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE print('CV RMSE:', MSE_CV.mean()**(0.5) )  #CV MSE 
+print('Training set RMSE1:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
+print('Test set RMSE1:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE 
 
 #%%
 # Graphing the tree
 from sklearn.tree import export_graphviz  
 
 filepath = os.path.join('tree1')
-export_graphviz(regtree1, out_file = filepath+'.dot' , feature_names =['s_1', 's_2', 's_3', 'holiday', 'workingday', 'TF', 'Humidity']) 
+export_graphviz(regtree1, out_file = filepath+'.dot' , feature_names =['s_1', 's_2', 's_3', 'hour','holiday','WindSpeed', 'workingday', 'TF', 'Humidity']) 
+
+#%%
+# regression tree
+# Part B: (Y~CNT, X~only workingday)
+# Prepare our X data (features, predictors, regressors) and y data (target, dependent variable)
+
+xdc_B = dc[['s_1', 's_2', 's_3', 'hour','WindSpeed', 'workingday', 'TF', 'Humidity']]
+ydc_B = dc['cnt']
+
+# Split dataset into 80% train, 20% test
+X_train, X_test, y_train, y_test= train_test_split(xdc_B, ydc_B, test_size=0.2, random_state=1)
+
+#%%
+# seaborn plot
+import seaborn as sns
+sns.set()
+sns.pairplot(xdc_B)
+
+#%%
+# Instantiate a DecisionTreeRegressor 'regtree0'
+regtree2 = DecisionTreeRegressor(max_depth=4, min_samples_leaf=0.05,random_state=22) # set minimum leaf to contain at least 10% of data points
+
+# Fit regtree0 to the training set
+regtree2.fit(X_train, y_train)  
+
+# evaluation
+y_pred2 = regtree2.predict(X_test)  # Compute y_pred
+mse_regtree2 = MSE(y_test, y_pred2)  # Compute mse_regtree2
+rmse_regtree2 = mse_regtree2 ** (.5) # Compute rmse_regtree2
+print("Test set RMSE of regtree2: {:.2f}".format(rmse_regtree2))
+
 
 # %%
+# Let us compare the performance with OLS
+
+olsdc2 = linear_model.LinearRegression() 
+olsdc2.fit( X_train, y_train )
+
+y_pred_ols = olsdc2.predict(X_test)  # Predict test set labels/values
+
+mse_ols2 = MSE(y_test, y_pred_ols)  # Compute mse_ols
+rmse_ols2 = mse_ols2**(0.5)  # Compute rmse_ols
+
+print('Linear Regression test set RMSE2: {:.2f}'.format(rmse_ols2))
+print('Regression Tree test set RMSE2: {:.2f}'.format(rmse_regtree2))
+
+#
+#%%
+# Instantiate a DecisionTreeRegressor dt
+SEED = 28
+regtree2 = DecisionTreeRegressor(max_depth=10, min_samples_leaf=0.022, random_state=SEED)
+
+# Evaluate the list of MSE ontained by 10-fold CV
+from sklearn.model_selection import cross_val_score
+# Set n_jobs to -1 in order to exploit all CPU cores in computation
+MSE_CV2 = - cross_val_score(regtree2, X_train, y_train, cv= 10, scoring='neg_mean_squared_error', n_jobs = -1)
+regtree2.fit(X_train, y_train)  # Fit 'regtree1' to the training set
+y_predict_train = regtree2.predict(X_train)  # Predict the labels of training set
+y_predict_test = regtree2.predict(X_test)  # Predict the labels of test set
+
+print('CV RMSE2:', MSE_CV2.mean()**(0.5) )  #CV MSE 
+print('Training set RMSE2:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
+print('Test set RMSE2:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE 
+
+#%%
+print('Training set RMSE2:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
+print('Test set RMSE2:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE print('CV RMSE:', MSE_CV.mean()**(0.5) )  #CV MSE 
+print('Training set RMSE2:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
+print('Test set RMSE2:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE 
+
+#%%
+# Graphing the tree
+from sklearn.tree import export_graphviz  
+
+filepath = os.path.join('tree2')
+export_graphviz(regtree1, out_file = filepath+'.dot' , feature_names =['s_1', 's_2', 's_3', 'hour','WindSpeed', 'workingday', 'TF', 'Humidity']) 
+
+#%%
+# regression tree
+# Part C: (Y~casual, X~ALL DAYS)
+# Prepare our X data (features, predictors, regressors) and y data (target, dependent variable)
+
+xdc_C = dc[['s_1', 's_2', 's_3', 'hour','holiday','WindSpeed', 'workingday', 'TF', 'Humidity']]
+ydc_C = dc['casual']
+
+# Split dataset into 80% train, 20% test
+X_train, X_test, y_train, y_test= train_test_split(xdc_C, ydc_C, test_size=0.2, random_state=1)
+
+#%%
+# seaborn plot
+import seaborn as sns
+sns.set()
+sns.pairplot(xdc_C)
+
+#%%
+# Instantiate a DecisionTreeRegressor 'regtree0'
+regtree3 = DecisionTreeRegressor(max_depth=4, min_samples_leaf=0.05,random_state=22) # set minimum leaf to contain at least 10% of data points
+
+# Fit regtree0 to the training set
+regtree3.fit(X_train, y_train)  
+
+# evaluation
+y_pred3 = regtree3.predict(X_test)  # Compute y_pred
+mse_regtree3 = MSE(y_test, y_pred3)  # Compute mse_regtree0
+rmse_regtree3 = mse_regtree3 ** (.5) # Compute rmse_regtree0
+print("Test set RMSE of regtree3: {:.2f}".format(rmse_regtree3))
+
+
+# %%
+# Let us compare the performance with OLS
+
+olsdc3 = linear_model.LinearRegression() 
+olsdc3.fit( X_train, y_train )
+
+y_pred_ols3 = olsdc3.predict(X_test)  # Predict test set labels/values
+
+mse_ols3 = MSE(y_test, y_pred_ols3)  # Compute mse_ols
+rmse_ols3 = mse_ols3**(0.5)  # Compute rmse_ols
+
+print('Linear Regression test set RMSE3: {:.2f}'.format(rmse_ols3))
+print('Regression Tree test set RMSE3: {:.2f}'.format(rmse_regtree3))
+
+#
+#%%
+# Instantiate a DecisionTreeRegressor dt
+SEED = 28
+regtree3 = DecisionTreeRegressor(max_depth=10, min_samples_leaf=0.022, random_state=SEED)
+
+# Evaluate the list of MSE ontained by 10-fold CV
+from sklearn.model_selection import cross_val_score
+# Set n_jobs to -1 in order to exploit all CPU cores in computation
+MSE_CV3 = - cross_val_score(regtree3, X_train, y_train, cv= 10, scoring='neg_mean_squared_error', n_jobs = -1)
+regtree3.fit(X_train, y_train)  # Fit 'regtree1' to the training set
+y_predict_train = regtree3.predict(X_train)  # Predict the labels of training set
+y_predict_test = regtree3.predict(X_test)  # Predict the labels of test set
+
+print('CV RMSE3:', MSE_CV3.mean()**(0.5) )  #CV MSE 
+print('Training set RMSE3:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
+print('Test set RMSE3:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE 
+
+#%%
+print('Training set RMSE3:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
+print('Test set RMSE3:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE print('CV RMSE:', MSE_CV.mean()**(0.5) )  #CV MSE 
+print('Training set RMSE3:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
+print('Test set RMSE3:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE 
+
+#%%
+# Graphing the tree
+from sklearn.tree import export_graphviz  
+
+filepath = os.path.join('tree3')
+export_graphviz(regtree1, out_file = filepath+'.dot' , feature_names =['s_1', 's_2', 's_3', 'hour','holiday','WindSpeed', 'workingday', 'TF', 'Humidity']) 
+
+#%%
+# regression tree
+# Part D: (Y~casual, X~only workingday)
+# Prepare our X data (features, predictors, regressors) and y data (target, dependent variable)
+
+xdc_D = dc[['s_1', 's_2', 's_3', 'hour','WindSpeed', 'workingday', 'TF', 'Humidity']]
+ydc_D = dc['casual']
+
+# Split dataset into 80% train, 20% test
+X_train, X_test, y_train, y_test= train_test_split(xdc_D, ydc_D, test_size=0.2, random_state=1)
+
+#%%
+# seaborn plot
+import seaborn as sns
+sns.set()
+sns.pairplot(xdc_D)
+
+#%%
+# Instantiate a DecisionTreeRegressor 'regtree0'
+regtree4 = DecisionTreeRegressor(max_depth=4, min_samples_leaf=0.05,random_state=22) # set minimum leaf to contain at least 10% of data points
+
+# Fit regtree0 to the training set
+regtree4.fit(X_train, y_train)  
+
+# evaluation
+y_pred4 = regtree4.predict(X_test)  # Compute y_pred
+mse_regtree4 = MSE(y_test, y_pred4)  # Compute mse_regtree0
+rmse_regtree4 = mse_regtree4 ** (.5) # Compute rmse_regtree0
+print("Test set RMSE4 of regtree4: {:.2f}".format(rmse_regtree4))
+
+
+# %%
+# Let us compare the performance with OLS
+
+olsdc4 = linear_model.LinearRegression() 
+olsdc4.fit( X_train, y_train )
+
+y_pred_ols4 = olsdc4.predict(X_test)  # Predict test set labels/values
+
+mse_ols4 = MSE(y_test, y_pred_ols4)  # Compute mse_ols
+rmse_ols4 = mse_ols4**(0.5)  # Compute rmse_ols
+
+print('Linear Regression test set RMSE4: {:.2f}'.format(rmse_ols4))
+print('Regression Tree test set RMSE4: {:.2f}'.format(rmse_regtree4))
+
+#
+#%%
+# Instantiate a DecisionTreeRegressor dt
+SEED = 28
+regtree4 = DecisionTreeRegressor(max_depth=10, min_samples_leaf=0.022, random_state=SEED)
+
+# Evaluate the list of MSE ontained by 10-fold CV
+from sklearn.model_selection import cross_val_score
+# Set n_jobs to -1 in order to exploit all CPU cores in computation
+MSE_CV4 = - cross_val_score(regtree4, X_train, y_train, cv= 10, scoring='neg_mean_squared_error', n_jobs = -1)
+regtree4.fit(X_train, y_train)  # Fit 'regtree1' to the training set
+y_predict_train = regtree4.predict(X_train)  # Predict the labels of training set
+y_predict_test = regtree4.predict(X_test)  # Predict the labels of test set
+
+print('CV RMSE4:', MSE_CV4.mean()**(0.5) )  #CV MSE 
+print('Training set RMSE4:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
+print('Test set RMSE4:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE 
+
+#%%
+print('Training set RMSE4:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
+print('Test set RMSE4:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE print('CV RMSE:', MSE_CV.mean()**(0.5) )  #CV MSE 
+print('Training set RMSE4:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
+print('Test set RMSE4:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE 
+
+#%%
+# Graphing the tree
+from sklearn.tree import export_graphviz  
+
+filepath = os.path.join('tree4')
+export_graphviz(regtree1, out_file = filepath+'.dot' , feature_names =['s_1', 's_2', 's_3', 'hour','WindSpeed', 'workingday', 'TF', 'Humidity']) 
+
+#%%
+# regression tree
+# Part E: (Y~CNT, X~ALL DAYS) (Train ~ DC, test ~ 2017data)
+# Prepare our X data (features, predictors, regressors) and y data (target, dependent variable)
+
+# load file
+dc2017 = pd.read_csv("hour2017.csv")
+# Using DC set as train, 2017 data as test
+X_train = dc[[ 'TF', 'Humidity', 'WindSpeed']]
+Y_train = dc['cnt']
+
+X_test = dc2017[['TF', 'Humidity', 'WindSpeed']]
+Y_test = dc2017['cnt']
+
+
+#%%
+# Instantiate a DecisionTreeRegressor 'regtree'
+regtree5 = DecisionTreeRegressor(max_depth=4, min_samples_leaf=0.05,random_state=22) # set minimum leaf to contain at least 10% of data points
+
+# Fit regtree0 to the training set
+regtree5.fit(X_train, y_train)  
+
+# evaluation
+y_pred5 = regtree5.predict(X_test)  # Compute y_pred
+mse_regtree5 = MSE(y_test, y_pred5)  # Compute mse_regtree1
+rmse_regtree5 = mse_regtree5 ** (.5) # Compute rmse_regtree1
+print("Test set RMSE of regtree5: {:.2f}".format(rmse_regtree5))
+
+
+# %%
+# Let us compare the performance with OLS
+
+olsdc5 = linear_model.LinearRegression() 
+olsdc5.fit( X_train, y_train )
+
+y_pred_ols5 = olsdc5.predict(X_test)  # Predict test set labels/values
+
+mse_ols5 = MSE(y_test, y_pred_ols1)  # Compute mse_ols
+rmse_ols5 = mse_ols5**(0.5)  # Compute rmse_ols
+
+print('Linear Regression test set RMSE5: {:.2f}'.format(rmse_ols5))
+print('Regression Tree test set RMSE5: {:.2f}'.format(rmse_regtree5))
+
+#
+#%%
+# Instantiate a DecisionTreeRegressor dt
+SEED = 28
+regtree5 = DecisionTreeRegressor(max_depth=10, min_samples_leaf=0.022, random_state=SEED)
+
+# Evaluate the list of MSE ontained by 10-fold CV
+from sklearn.model_selection import cross_val_score
+# Set n_jobs to -1 in order to exploit all CPU cores in computation
+MSE_CV5 = - cross_val_score(regtree5, X_train, y_train, cv= 10, scoring='neg_mean_squared_error', n_jobs = -1)
+regtree5.fit(X_train, y_train)  # Fit 'regtree1' to the training set
+y_predict_train = regtree5.predict(X_train)  # Predict the labels of training set
+y_predict_test = regtree5.predict(X_test)  # Predict the labels of test set
+
+print('CV RMSE5:', MSE_CV1.mean()**(0.5) )  #CV MSE 
+print('Training set RMSE5:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
+print('Test set RMSE5:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE 
+
+#%%
+print('Training set RMSE5:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
+print('Test set RMSE5:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE print('CV RMSE:', MSE_CV.mean()**(0.5) )  #CV MSE 
+print('Training set RMSE5:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
+print('Test set RMSE5:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE 
+
+#%%
+# Graphing the tree
+from sklearn.tree import export_graphviz  
+
+filepath = os.path.join('tree5')
+export_graphviz(regtree1, out_file = filepath+'.dot' , feature_names =['TF', 'Humidity', 'WindSpeed']) 
