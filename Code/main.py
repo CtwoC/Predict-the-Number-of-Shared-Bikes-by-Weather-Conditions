@@ -22,11 +22,21 @@ dc = dc.rename(columns={'yr':'year', 'mnth':'month', 'hr':'hour', 'weekday':'day
 dc2017['TF'] = dc2017['TF'].map(lambda x: x.rstrip('F'))
 dc2017['Humidity'] = dc2017['TF'].map(lambda x: x.rstrip('%'))
 dc2017['WindSpeed'] = dc2017['TF'].map(lambda x: x.rstrip('mph'))
-dc2017['Humidity'] = dc2017[]
+dc2017['TF'] = dc2017['TF'].astype('float')
+dc2017['Humidity'] = dc2017['TF'].astype('float')
+dc2017['WindSpeed'] = dc2017['TF'].astype('float')
+maxTF = max(dc2017.TF)
+maxHM = max(dc2017.Humidity)
+maxWS = max(dc2017.WindSpeed)
+dc2017['TF'] = dc2017['TF'].map(lambda x: x / maxTF)
+dc2017['Humidity'] = dc2017['Humidity'].map(lambda x: x / maxHM)
+dc2017['WindSpeed'] = dc2017['WindSpeed'].map(lambda x: x / maxWS)
+
 
 
 
 dcEDA = eda.edaFunction(dc)
+dc2017EDA = eda.edaFunction(dc2017)
 # LondonEDA = eda.edaFunction(london)
 
 
@@ -80,9 +90,20 @@ dcEDA.yearEDA()
 # Hists
 dcEDA.hists()
 # LondonEDA.hists()
+
+#%%
+dcEDA.register()
 #%%
 # corelationMatrix
 dcEDA.corelationMatrix()
 # LondonEDA.corelationMatrix()
 
 # %%
+dc2017EDA.hourEDA()
+
+#%%
+dc2017EDA.hists()
+#%%
+dc2017EDA.corelationMatrix()
+
+#%%

@@ -95,6 +95,13 @@ class edaFunction:
         self.dframe.groupby('hour')['cnt'].sum().plot(kind = 'bar', figsize = (6, 4), color = 'blue')
         plt.legend(loc = 'upper right')
 
+    def register(self):
+        # fig,axes = plt.subplots(2,1)
+        registered = list(self.dframe.registered)
+        casual = list(self.dframe.casual)
+        plt.boxplot([registered,casual],positions=[1,2])
+        plt.violinplot([registered,casual],positions=[1,2])
+    
     def dayEDA(self):
         self.dframe.groupby('day')['cnt'].sum().plot(kind = 'bar', figsize = (6, 4), color = 'blue')
     
@@ -116,12 +123,22 @@ class edaFunction:
         axes[1,1].set_title("Variation of Humidity")
         fig.set_size_inches(10,10)
     
+    def hists2(self):
+        fig,axes = plt.subplots(2,2)
+        axes[0,0].hist(x = "TF", data = self.dframe, edgecolor = "black", linewidth = 2)
+        axes[0,0].set_title("Variation of Temperature")
+        axes[1,0].hist(x = "WindSpeed", data = self.dframe, edgecolor = "black",linewidth = 2)
+        axes[1,0].set_title("Variation of WindSpeed")
+        axes[1,1].hist(x = "Humidity", data = self.dframe, edgecolor = "black", linewidth = 2)
+        axes[1,1].set_title("Variation of Humidity")
+        fig.set_size_inches(10,10)
+    
     def corelationMatrix(self):
         cor_mat= self.dframe[:].corr()
         mask = np.array(cor_mat)
         mask[np.tril_indices_from(mask)] = False
         fig=plt.gcf()
-        fig.set_size_inches(50,30)
+        fig.set_size_inches(36,18)
         sns.heatmap(data = cor_mat, mask = mask, square = True, annot = True, cbar = True)
 
 
