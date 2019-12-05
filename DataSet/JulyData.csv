@@ -1,0 +1,1029 @@
+,time,temp,hum,wind,weather,date
+0,11:52 PM,81F,72%,15mph,Cloudy,2017-07-01
+1,12:28 AM,80F,74%,10mph,Cloudy,2017-07-01
+2,12:52 AM,80F,74%,14mph,Cloudy,2017-07-01
+3,1:52 AM,79F,77%,15mph,Cloudy,2017-07-01
+4,2:52 AM,77F,79%,14mph,Mostly Cloudy,2017-07-01
+5,3:11 AM,77F,79%,13mph,Mostly Cloudy,2017-07-01
+6,3:52 AM,78F,79%,10mph,Mostly Cloudy,2017-07-01
+7,4:52 AM,77F,84%,12mph,Mostly Cloudy,2017-07-01
+8,4:59 AM,77F,84%,10mph,Cloudy,2017-07-01
+9,5:14 AM,77F,84%,13mph,Mostly Cloudy,2017-07-01
+10,5:25 AM,77F,84%,13mph,Mostly Cloudy,2017-07-01
+11,5:32 AM,77F,84%,13mph,Mostly Cloudy,2017-07-01
+12,5:52 AM,78F,81%,12mph,Mostly Cloudy,2017-07-01
+13,6:52 AM,78F,84%,12mph,Cloudy,2017-07-01
+14,7:52 AM,80F,79%,15mph,Cloudy,2017-07-01
+15,8:52 AM,82F,74%,15mph,Cloudy,2017-07-01
+16,9:52 AM,83F,72%,14mph,Cloudy,2017-07-01
+17,10:02 AM,84F,69%,13mph,Cloudy,2017-07-01
+18,10:05 AM,84F,69%,12mph,Cloudy,2017-07-01
+19,10:26 AM,85F,67%,8mph,Mostly Cloudy,2017-07-01
+20,10:52 AM,87F,63%,10mph,Mostly Cloudy,2017-07-01
+21,11:52 AM,87F,65%,15mph,Mostly Cloudy,2017-07-01
+22,12:52 PM,89F,61%,16mph,Mostly Cloudy,2017-07-01
+23,1:52 PM,91F,57%,15mph,Partly Cloudy,2017-07-01
+24,2:23 PM,93F,54%,17mph,Mostly Cloudy,2017-07-01
+25,2:35 PM,90F,59%,17mph,Thunder,2017-07-01
+26,2:52 PM,85F,63%,17mph,Thunder,2017-07-01
+27,3:00 PM,81F,72%,26mph,Heavy T-Storm / Windy,2017-07-01
+28,3:03 PM,78F,84%,24mph,Heavy T-Storm / Windy,2017-07-01
+29,3:06 PM,75F,90%,21mph,Heavy T-Storm / Windy,2017-07-01
+30,3:11 PM,73F,90%,3mph,Heavy T-Storm,2017-07-01
+31,3:16 PM,75F,84%,13mph,Light Rain with Thunder,2017-07-01
+32,3:28 PM,76F,91%,5mph,Light Rain with Thunder,2017-07-01
+33,3:42 PM,79F,84%,0mph,Cloudy,2017-07-01
+34,3:52 PM,78F,79%,0mph,Mostly Cloudy,2017-07-01
+35,4:52 PM,81F,77%,0mph,Partly Cloudy,2017-07-01
+36,5:52 PM,84F,67%,0mph,Partly Cloudy,2017-07-01
+37,6:52 PM,84F,74%,0mph,Fair,2017-07-01
+38,7:35 PM,84F,74%,0mph,Thunder in the Vicinity,2017-07-01
+39,7:52 PM,83F,82%,3mph,Fair,2017-07-01
+40,8:52 PM,81F,85%,6mph,Fair,2017-07-01
+41,9:52 PM,79F,88%,8mph,Mostly Cloudy,2017-07-01
+42,10:52 PM,77F,90%,6mph,Cloudy,2017-07-01
+43,11:52 PM,77F,88%,6mph,Mostly Cloudy,2017-07-02
+44,12:52 AM,77F,88%,3mph,Mostly Cloudy,2017-07-02
+45,1:52 AM,77F,88%,3mph,Mostly Cloudy,2017-07-02
+46,2:52 AM,77F,90%,0mph,Mostly Cloudy,2017-07-02
+47,3:52 AM,76F,91%,0mph,Mostly Cloudy,2017-07-02
+48,4:52 AM,76F,91%,3mph,Partly Cloudy,2017-07-02
+49,5:52 AM,77F,88%,3mph,Partly Cloudy,2017-07-02
+50,6:52 AM,82F,65%,3mph,Partly Cloudy,2017-07-02
+51,7:52 AM,84F,61%,6mph,Partly Cloudy,2017-07-02
+52,8:52 AM,85F,57%,5mph,Mostly Cloudy,2017-07-02
+53,9:52 AM,87F,55%,8mph,Mostly Cloudy,2017-07-02
+54,10:52 AM,87F,51%,5mph,Mostly Cloudy,2017-07-02
+55,11:52 AM,90F,43%,5mph,Mostly Cloudy,2017-07-02
+56,12:52 PM,91F,42%,9mph,Mostly Cloudy,2017-07-02
+57,1:52 PM,92F,39%,7mph,Mostly Cloudy,2017-07-02
+58,2:52 PM,91F,41%,6mph,Mostly Cloudy,2017-07-02
+59,3:52 PM,91F,42%,9mph,Cloudy,2017-07-02
+60,4:09 PM,92F,42%,12mph,Mostly Cloudy,2017-07-02
+61,4:52 PM,90F,45%,14mph,Mostly Cloudy,2017-07-02
+62,5:52 PM,86F,57%,7mph,Mostly Cloudy,2017-07-02
+63,6:52 PM,84F,65%,5mph,Cloudy,2017-07-02
+64,7:52 PM,84F,69%,9mph,Cloudy,2017-07-02
+65,8:52 PM,83F,69%,6mph,Mostly Cloudy,2017-07-02
+66,9:52 PM,82F,74%,8mph,Cloudy,2017-07-02
+67,10:52 PM,80F,81%,6mph,Cloudy,2017-07-02
+68,11:52 PM,80F,81%,6mph,Cloudy,2017-07-03
+69,12:52 AM,80F,79%,3mph,Cloudy,2017-07-03
+70,1:52 AM,79F,77%,3mph,Mostly Cloudy,2017-07-03
+71,2:52 AM,77F,84%,0mph,Mostly Cloudy,2017-07-03
+72,3:52 AM,78F,79%,0mph,Partly Cloudy,2017-07-03
+73,4:52 AM,75F,84%,7mph,Mostly Cloudy,2017-07-03
+74,5:52 AM,78F,74%,6mph,Mostly Cloudy,2017-07-03
+75,6:52 AM,81F,62%,8mph,Partly Cloudy,2017-07-03
+76,7:52 AM,84F,56%,9mph,Fair,2017-07-03
+77,8:52 AM,86F,49%,13mph,Partly Cloudy,2017-07-03
+78,9:52 AM,88F,46%,12mph,Partly Cloudy,2017-07-03
+79,10:52 AM,89F,42%,10mph,Partly Cloudy,2017-07-03
+80,11:52 AM,90F,38%,7mph,Mostly Cloudy,2017-07-03
+81,12:52 PM,91F,38%,9mph,Mostly Cloudy,2017-07-03
+82,1:52 PM,90F,38%,10mph,Mostly Cloudy,2017-07-03
+83,2:52 PM,90F,40%,7mph,Mostly Cloudy,2017-07-03
+84,3:52 PM,91F,35%,5mph,Mostly Cloudy,2017-07-03
+85,4:52 PM,89F,36%,5mph,Mostly Cloudy,2017-07-03
+86,5:52 PM,89F,40%,3mph,Mostly Cloudy,2017-07-03
+87,6:52 PM,87F,41%,8mph,Mostly Cloudy,2017-07-03
+88,7:52 PM,85F,44%,6mph,Mostly Cloudy,2017-07-03
+89,8:52 PM,83F,58%,6mph,Mostly Cloudy,2017-07-03
+90,9:52 PM,82F,62%,6mph,Cloudy,2017-07-03
+91,10:52 PM,80F,74%,5mph,Cloudy,2017-07-03
+92,11:52 PM,79F,77%,6mph,Cloudy,2017-07-04
+93,12:52 AM,78F,84%,5mph,Mostly Cloudy,2017-07-04
+94,1:52 AM,78F,79%,3mph,Mostly Cloudy,2017-07-04
+95,2:52 AM,78F,79%,3mph,Mostly Cloudy,2017-07-04
+96,3:52 AM,76F,85%,6mph,Mostly Cloudy,2017-07-04
+97,4:52 AM,78F,68%,0mph,Cloudy,2017-07-04
+98,5:52 AM,78F,76%,3mph,Cloudy,2017-07-04
+99,6:52 AM,79F,79%,5mph,Cloudy,2017-07-04
+100,7:52 AM,83F,65%,0mph,Cloudy,2017-07-04
+101,8:52 AM,85F,57%,5mph,Cloudy,2017-07-04
+102,9:52 AM,87F,53%,3mph,Fair,2017-07-04
+103,10:52 AM,90F,45%,0mph,Cloudy,2017-07-04
+104,11:52 AM,89F,45%,3mph,Cloudy,2017-07-04
+105,12:52 PM,90F,48%,7mph,Cloudy,2017-07-04
+106,1:02 PM,89F,50%,7mph,Cloudy,2017-07-04
+107,1:52 PM,90F,48%,12mph,Cloudy,2017-07-04
+108,2:52 PM,90F,43%,6mph,Cloudy,2017-07-04
+109,3:45 PM,87F,53%,6mph,Light Rain with Thunder,2017-07-04
+110,3:52 PM,87F,53%,6mph,Light Rain with Thunder,2017-07-04
+111,4:23 PM,81F,72%,9mph,Light Rain,2017-07-04
+112,4:52 PM,84F,58%,6mph,Cloudy,2017-07-04
+113,5:52 PM,86F,61%,3mph,Mostly Cloudy,2017-07-04
+114,6:52 PM,83F,67%,13mph,Cloudy,2017-07-04
+115,7:52 PM,79F,79%,9mph,Mostly Cloudy,2017-07-04
+116,8:52 PM,78F,81%,0mph,Cloudy,2017-07-04
+117,9:52 PM,79F,77%,3mph,Cloudy,2017-07-04
+118,10:52 PM,79F,74%,6mph,Cloudy,2017-07-04
+119,11:52 PM,78F,74%,10mph,Cloudy,2017-07-05
+120,12:52 AM,77F,82%,6mph,Cloudy,2017-07-05
+121,1:52 AM,77F,84%,5mph,Cloudy,2017-07-05
+122,2:52 AM,76F,91%,5mph,Cloudy,2017-07-05
+123,3:37 AM,76F,91%,6mph,Cloudy,2017-07-05
+124,3:40 AM,76F,91%,7mph,Cloudy,2017-07-05
+125,3:52 AM,76F,91%,7mph,Light Rain,2017-07-05
+126,4:52 AM,76F,94%,7mph,Cloudy,2017-07-05
+127,5:45 AM,76F,94%,6mph,Cloudy,2017-07-05
+128,5:52 AM,76F,94%,6mph,Cloudy,2017-07-05
+129,6:52 AM,77F,90%,9mph,Cloudy,2017-07-05
+130,7:52 AM,78F,90%,7mph,Light Rain,2017-07-05
+131,8:05 AM,78F,90%,6mph,Light Rain,2017-07-05
+132,8:52 AM,78F,90%,6mph,Light Rain,2017-07-05
+133,9:42 AM,80F,87%,9mph,Light Rain,2017-07-05
+134,9:52 AM,80F,87%,9mph,Cloudy,2017-07-05
+135,10:52 AM,82F,79%,7mph,Cloudy,2017-07-05
+136,11:06 AM,82F,76%,10mph,Cloudy,2017-07-05
+137,11:52 AM,83F,74%,9mph,Partly Cloudy,2017-07-05
+138,12:00 PM,83F,72%,8mph,Mostly Cloudy,2017-07-05
+139,12:52 PM,83F,72%,12mph,Mostly Cloudy,2017-07-05
+140,12:59 PM,83F,72%,13mph,Cloudy,2017-07-05
+141,1:52 PM,83F,69%,12mph,Cloudy,2017-07-05
+142,2:52 PM,84F,67%,12mph,Cloudy,2017-07-05
+143,3:52 PM,84F,69%,15mph,Cloudy,2017-07-05
+144,4:52 PM,83F,69%,10mph,Cloudy,2017-07-05
+145,5:31 PM,76F,82%,20mph,Light Rain,2017-07-05
+146,5:52 PM,75F,84%,14mph,Light Rain,2017-07-05
+147,6:02 PM,75F,90%,10mph,Heavy Rain,2017-07-05
+148,6:04 PM,75F,90%,12mph,Heavy Rain,2017-07-05
+149,6:13 PM,75F,96%,13mph,Heavy Rain,2017-07-05
+150,6:19 PM,74F,97%,13mph,Heavy Rain,2017-07-05
+151,6:22 PM,74F,97%,15mph,Heavy Rain,2017-07-05
+152,6:33 PM,74F,97%,12mph,Heavy Rain,2017-07-05
+153,6:48 PM,73F,94%,12mph,Rain,2017-07-05
+154,6:52 PM,74F,91%,9mph,Light Rain,2017-07-05
+155,7:52 PM,74F,82%,0mph,Light Rain,2017-07-05
+156,8:52 PM,75F,90%,5mph,Light Rain,2017-07-05
+157,9:17 PM,75F,94%,5mph,Light Rain,2017-07-05
+158,9:40 PM,75F,94%,6mph,Cloudy,2017-07-05
+159,9:52 PM,75F,90%,7mph,Cloudy,2017-07-05
+160,10:14 PM,75F,94%,6mph,Cloudy,2017-07-05
+161,10:52 PM,75F,94%,6mph,Cloudy,2017-07-05
+162,11:20 PM,75F,94%,5mph,Cloudy,2017-07-06
+163,11:36 PM,75F,94%,5mph,Light Rain,2017-07-06
+164,11:52 PM,75F,94%,6mph,Light Rain,2017-07-06
+165,12:40 AM,75F,94%,6mph,Cloudy,2017-07-06
+166,12:52 AM,75F,94%,6mph,Cloudy,2017-07-06
+167,1:52 AM,75F,94%,9mph,Cloudy,2017-07-06
+168,2:44 AM,75F,94%,8mph,Light Rain,2017-07-06
+169,2:52 AM,75F,94%,8mph,Light Rain,2017-07-06
+170,3:08 AM,74F,97%,9mph,Light Rain,2017-07-06
+171,3:20 AM,74F,97%,9mph,Light Rain,2017-07-06
+172,3:34 AM,74F,97%,9mph,Light Rain,2017-07-06
+173,3:52 AM,74F,97%,7mph,Light Rain,2017-07-06
+174,4:26 AM,75F,94%,9mph,Rain,2017-07-06
+175,4:38 AM,75F,94%,8mph,Rain,2017-07-06
+176,4:52 AM,74F,97%,9mph,Heavy Rain,2017-07-06
+177,5:19 AM,74F,100%,7mph,Rain,2017-07-06
+178,5:36 AM,74F,97%,8mph,Rain,2017-07-06
+179,5:52 AM,74F,100%,7mph,Rain,2017-07-06
+180,6:10 AM,74F,100%,7mph,Light Rain,2017-07-06
+181,6:52 AM,75F,94%,5mph,Light Rain,2017-07-06
+182,7:04 AM,75F,96%,5mph,Rain,2017-07-06
+183,7:46 AM,75F,94%,9mph,Rain,2017-07-06
+184,7:52 AM,75F,96%,9mph,Light Rain,2017-07-06
+185,8:16 AM,75F,96%,7mph,Light Rain,2017-07-06
+186,8:35 AM,75F,96%,8mph,Rain,2017-07-06
+187,8:49 AM,75F,94%,6mph,Rain,2017-07-06
+188,8:52 AM,75F,96%,6mph,Rain,2017-07-06
+189,9:14 AM,76F,94%,7mph,Light Rain,2017-07-06
+190,9:39 AM,76F,94%,5mph,Rain,2017-07-06
+191,9:47 AM,75F,94%,5mph,Rain,2017-07-06
+192,9:52 AM,76F,94%,5mph,Rain,2017-07-06
+193,10:01 AM,76F,94%,6mph,Rain,2017-07-06
+194,10:19 AM,76F,97%,5mph,Light Rain,2017-07-06
+195,10:36 AM,76F,97%,9mph,Light Rain,2017-07-06
+196,10:52 AM,77F,94%,8mph,Light Rain,2017-07-06
+197,11:18 AM,77F,94%,5mph,Light Rain,2017-07-06
+198,11:52 AM,78F,90%,6mph,Light Rain,2017-07-06
+199,12:08 PM,78F,90%,8mph,Cloudy,2017-07-06
+200,12:23 PM,78F,87%,10mph,Light Rain,2017-07-06
+201,12:34 PM,77F,94%,0mph,Light Rain,2017-07-06
+202,12:44 PM,79F,88%,6mph,Cloudy,2017-07-06
+203,12:52 PM,79F,88%,8mph,Cloudy,2017-07-06
+204,1:52 PM,81F,79%,3mph,Cloudy,2017-07-06
+205,2:52 PM,79F,88%,10mph,Light Rain,2017-07-06
+206,3:52 PM,80F,85%,12mph,Cloudy,2017-07-06
+207,4:04 PM,80F,85%,13mph,Cloudy,2017-07-06
+208,4:52 PM,79F,84%,10mph,Cloudy,2017-07-06
+209,5:40 PM,79F,84%,12mph,Cloudy,2017-07-06
+210,5:52 PM,78F,87%,12mph,Cloudy,2017-07-06
+211,6:20 PM,78F,84%,12mph,Cloudy,2017-07-06
+212,6:34 PM,78F,84%,12mph,Cloudy,2017-07-06
+213,6:52 PM,77F,88%,12mph,Thunder in the Vicinity,2017-07-06
+214,7:16 PM,77F,88%,9mph,Thunder,2017-07-06
+215,7:36 PM,77F,88%,8mph,Thunder,2017-07-06
+216,7:52 PM,77F,88%,7mph,Thunder in the Vicinity,2017-07-06
+217,8:05 PM,77F,88%,7mph,Mostly Cloudy,2017-07-06
+218,8:35 PM,76F,94%,5mph,Light Rain,2017-07-06
+219,8:52 PM,76F,94%,8mph,Cloudy,2017-07-06
+220,9:09 PM,76F,94%,3mph,Cloudy,2017-07-06
+221,9:52 PM,75F,96%,5mph,Cloudy,2017-07-06
+222,9:59 PM,76F,94%,3mph,Cloudy,2017-07-06
+223,10:55 PM,75F,94%,5mph,Cloudy,2017-07-06
+224,11:22 PM,75F,94%,6mph,Mostly Cloudy,2017-07-07
+225,11:52 PM,75F,96%,5mph,Partly Cloudy,2017-07-07
+226,12:34 AM,75F,94%,0mph,Mostly Cloudy,2017-07-07
+227,12:52 AM,75F,96%,0mph,Cloudy,2017-07-07
+228,1:52 AM,76F,94%,3mph,Cloudy,2017-07-07
+229,2:21 AM,76F,94%,0mph,Cloudy,2017-07-07
+230,2:40 AM,76F,94%,3mph,Cloudy,2017-07-07
+231,2:52 AM,76F,94%,5mph,Cloudy,2017-07-07
+232,3:24 AM,75F,96%,6mph,Cloudy,2017-07-07
+233,3:32 AM,75F,96%,5mph,Cloudy,2017-07-07
+234,3:49 AM,75F,94%,3mph,Partly Cloudy,2017-07-07
+235,3:52 AM,75F,94%,3mph,Partly Cloudy,2017-07-07
+236,4:21 AM,75F,94%,0mph,Cloudy,2017-07-07
+237,4:36 AM,75F,94%,3mph,Cloudy,2017-07-07
+238,4:52 AM,75F,96%,6mph,Cloudy,2017-07-07
+239,5:11 AM,75F,96%,7mph,Light Rain,2017-07-07
+240,5:18 AM,75F,96%,8mph,Light Rain,2017-07-07
+241,5:28 AM,75F,96%,7mph,Light Rain,2017-07-07
+242,5:40 AM,75F,96%,5mph,Cloudy,2017-07-07
+243,5:52 AM,75F,96%,5mph,Cloudy,2017-07-07
+244,6:52 AM,76F,94%,6mph,Cloudy,2017-07-07
+245,7:47 AM,79F,83%,12mph,Cloudy,2017-07-07
+246,7:52 AM,78F,84%,7mph,Cloudy,2017-07-07
+247,8:52 AM,79F,79%,13mph,Cloudy,2017-07-07
+248,9:52 AM,81F,74%,14mph,Mostly Cloudy,2017-07-07
+249,10:24 AM,81F,69%,16mph,Mostly Cloudy,2017-07-07
+250,10:52 AM,81F,69%,18mph,Mostly Cloudy,2017-07-07
+251,11:09 AM,83F,65%,16mph,Partly Cloudy,2017-07-07
+252,11:52 AM,85F,63%,15mph,Partly Cloudy,2017-07-07
+253,12:52 PM,87F,53%,12mph,Partly Cloudy,2017-07-07
+254,1:52 PM,89F,53%,12mph,Partly Cloudy,2017-07-07
+255,2:52 PM,90F,43%,14mph,Partly Cloudy,2017-07-07
+256,3:52 PM,90F,43%,12mph,Partly Cloudy,2017-07-07
+257,4:52 PM,90F,46%,13mph,Partly Cloudy,2017-07-07
+258,5:52 PM,89F,50%,15mph,Partly Cloudy,2017-07-07
+259,6:52 PM,88F,48%,10mph,Partly Cloudy,2017-07-07
+260,7:52 PM,78F,74%,10mph,Mostly Cloudy,2017-07-07
+261,8:52 PM,77F,69%,5mph,Partly Cloudy,2017-07-07
+262,9:52 PM,76F,76%,6mph,Fair,2017-07-07
+263,10:52 PM,75F,82%,5mph,Partly Cloudy,2017-07-07
+264,11:52 PM,74F,82%,0mph,Fair,2017-07-08
+265,12:52 AM,76F,74%,0mph,Fair,2017-07-08
+266,1:52 AM,73F,84%,5mph,Mostly Cloudy,2017-07-08
+267,2:52 AM,72F,87%,3mph,Mostly Cloudy,2017-07-08
+268,3:52 AM,72F,91%,3mph,Mostly Cloudy,2017-07-08
+269,4:52 AM,73F,79%,0mph,Cloudy,2017-07-08
+270,5:52 AM,75F,73%,3mph,Mostly Cloudy,2017-07-08
+271,6:52 AM,78F,66%,3mph,Mostly Cloudy,2017-07-08
+272,7:52 AM,78F,64%,12mph,Cloudy,2017-07-08
+273,8:52 AM,82F,56%,10mph,Partly Cloudy,2017-07-08
+274,9:52 AM,85F,53%,8mph,Partly Cloudy,2017-07-08
+275,10:52 AM,87F,49%,10mph,Partly Cloudy,2017-07-08
+276,11:52 AM,86F,53%,10mph,Mostly Cloudy,2017-07-08
+277,12:52 PM,87F,51%,8mph,Mostly Cloudy,2017-07-08
+278,1:52 PM,88F,43%,14mph,Mostly Cloudy,2017-07-08
+279,2:52 PM,90F,40%,9mph,Cloudy,2017-07-08
+280,3:52 PM,89F,39%,15mph,Mostly Cloudy,2017-07-08
+281,4:52 PM,88F,42%,9mph,Mostly Cloudy,2017-07-08
+282,5:52 PM,88F,37%,14mph,Mostly Cloudy,2017-07-08
+283,6:00 PM,88F,36%,12mph,Mostly Cloudy,2017-07-08
+284,6:52 PM,86F,37%,12mph,Mostly Cloudy,2017-07-08
+285,7:52 PM,79F,48%,14mph,Partly Cloudy,2017-07-08
+286,8:52 PM,77F,54%,10mph,Partly Cloudy,2017-07-08
+287,9:52 PM,75F,57%,10mph,Partly Cloudy,2017-07-08
+288,10:52 PM,75F,57%,10mph,Partly Cloudy,2017-07-08
+289,11:52 PM,75F,57%,10mph,Partly Cloudy,2017-07-09
+290,12:52 AM,72F,68%,8mph,Mostly Cloudy,2017-07-09
+291,1:52 AM,71F,70%,6mph,Partly Cloudy,2017-07-09
+292,2:52 AM,71F,73%,10mph,Partly Cloudy,2017-07-09
+293,3:52 AM,71F,73%,12mph,Partly Cloudy,2017-07-09
+294,4:52 AM,70F,76%,13mph,Fair,2017-07-09
+295,5:52 AM,70F,78%,9mph,Fair,2017-07-09
+296,6:52 AM,74F,66%,9mph,Fair,2017-07-09
+297,7:52 AM,75F,62%,9mph,Fair,2017-07-09
+298,8:52 AM,78F,54%,12mph,Fair,2017-07-09
+299,9:52 AM,80F,42%,12mph,Fair,2017-07-09
+300,10:52 AM,81F,41%,7mph,Fair,2017-07-09
+301,11:52 AM,83F,37%,9mph,Fair,2017-07-09
+302,12:52 PM,83F,36%,12mph,Partly Cloudy,2017-07-09
+303,1:52 PM,84F,35%,10mph,Fair,2017-07-09
+304,2:52 PM,86F,33%,5mph,Fair,2017-07-09
+305,3:52 PM,85F,37%,0mph,Fair,2017-07-09
+306,4:52 PM,85F,37%,8mph,Fair,2017-07-09
+307,5:52 PM,84F,38%,6mph,Fair,2017-07-09
+308,6:52 PM,83F,41%,0mph,Fair,2017-07-09
+309,7:52 PM,80F,54%,3mph,Fair,2017-07-09
+310,8:52 PM,79F,47%,7mph,Partly Cloudy,2017-07-09
+311,9:52 PM,78F,46%,5mph,Partly Cloudy,2017-07-09
+312,10:52 PM,76F,62%,5mph,Partly Cloudy,2017-07-09
+313,11:52 PM,76F,69%,6mph,Mostly Cloudy,2017-07-10
+314,12:52 AM,75F,71%,5mph,Mostly Cloudy,2017-07-10
+315,1:52 AM,75F,71%,3mph,Mostly Cloudy,2017-07-10
+316,2:52 AM,74F,73%,3mph,Mostly Cloudy,2017-07-10
+317,3:52 AM,73F,79%,5mph,Partly Cloudy,2017-07-10
+318,4:52 AM,73F,81%,7mph,Partly Cloudy,2017-07-10
+319,5:35 AM,73F,84%,6mph,Mostly Cloudy,2017-07-10
+320,5:52 AM,74F,82%,6mph,Mostly Cloudy,2017-07-10
+321,6:52 AM,75F,79%,5mph,Cloudy,2017-07-10
+322,7:44 AM,76F,76%,7mph,Mostly Cloudy,2017-07-10
+323,7:47 AM,77F,78%,7mph,Mostly Cloudy,2017-07-10
+324,7:52 AM,77F,76%,5mph,Mostly Cloudy,2017-07-10
+325,8:52 AM,79F,77%,8mph,Mostly Cloudy,2017-07-10
+326,9:52 AM,81F,74%,10mph,Partly Cloudy,2017-07-10
+327,10:52 AM,84F,65%,10mph,Partly Cloudy,2017-07-10
+328,11:52 AM,87F,55%,12mph,Partly Cloudy,2017-07-10
+329,12:52 PM,88F,55%,15mph,Partly Cloudy,2017-07-10
+330,1:52 PM,87F,51%,12mph,Partly Cloudy,2017-07-10
+331,2:52 PM,90F,50%,13mph,Mostly Cloudy,2017-07-10
+332,3:52 PM,88F,59%,13mph,Mostly Cloudy,2017-07-10
+333,4:52 PM,88F,57%,14mph,Mostly Cloudy,2017-07-10
+334,5:52 PM,87F,59%,10mph,Partly Cloudy,2017-07-10
+335,6:52 PM,86F,61%,9mph,Partly Cloudy,2017-07-10
+336,7:52 PM,84F,67%,7mph,Mostly Cloudy,2017-07-10
+337,8:52 PM,83F,67%,9mph,Mostly Cloudy,2017-07-10
+338,9:52 PM,82F,71%,12mph,Partly Cloudy,2017-07-10
+339,10:52 PM,82F,69%,12mph,Mostly Cloudy,2017-07-10
+340,11:52 PM,82F,67%,15mph,Cloudy,2017-07-11
+341,12:52 AM,80F,69%,7mph,Cloudy,2017-07-11
+342,1:52 AM,78F,71%,3mph,Mostly Cloudy,2017-07-11
+343,2:52 AM,77F,76%,6mph,Mostly Cloudy,2017-07-11
+344,3:52 AM,75F,82%,6mph,Fair,2017-07-11
+345,4:52 AM,76F,87%,7mph,Mostly Cloudy,2017-07-11
+346,5:52 AM,76F,91%,6mph,Cloudy,2017-07-11
+347,6:52 AM,78F,84%,9mph,Cloudy,2017-07-11
+348,7:52 AM,81F,77%,7mph,Mostly Cloudy,2017-07-11
+349,8:52 AM,83F,79%,10mph,Mostly Cloudy,2017-07-11
+350,9:52 AM,85F,72%,10mph,Cloudy,2017-07-11
+351,10:52 AM,85F,67%,12mph,Cloudy,2017-07-11
+352,11:52 AM,85F,65%,8mph,Cloudy,2017-07-11
+353,12:52 PM,85F,69%,7mph,Cloudy,2017-07-11
+354,1:52 PM,89F,57%,9mph,Cloudy,2017-07-11
+355,2:52 PM,91F,48%,14mph,Partly Cloudy,2017-07-11
+356,3:52 PM,92F,44%,15mph,Mostly Cloudy,2017-07-11
+357,4:52 PM,90F,46%,15mph,Cloudy,2017-07-11
+358,5:52 PM,89F,52%,12mph,Mostly Cloudy,2017-07-11
+359,6:52 PM,87F,53%,9mph,Mostly Cloudy,2017-07-11
+360,7:52 PM,86F,57%,0mph,Mostly Cloudy,2017-07-11
+361,8:52 PM,83F,72%,3mph,Mostly Cloudy,2017-07-11
+362,9:52 PM,82F,76%,7mph,Cloudy,2017-07-11
+363,10:52 PM,81F,69%,5mph,Mostly Cloudy,2017-07-11
+364,11:52 PM,81F,67%,6mph,Cloudy,2017-07-12
+365,12:52 AM,80F,69%,5mph,Cloudy,2017-07-12
+366,1:52 AM,80F,69%,3mph,Cloudy,2017-07-12
+367,2:52 AM,79F,72%,5mph,Cloudy,2017-07-12
+368,3:52 AM,78F,76%,5mph,Cloudy,2017-07-12
+369,4:52 AM,78F,79%,7mph,Cloudy,2017-07-12
+370,5:52 AM,79F,72%,7mph,Cloudy,2017-07-12
+371,6:52 AM,83F,58%,12mph,Cloudy,2017-07-12
+372,7:52 AM,85F,57%,13mph,Cloudy,2017-07-12
+373,8:52 AM,88F,51%,8mph,Mostly Cloudy,2017-07-12
+374,9:52 AM,91F,50%,8mph,Mostly Cloudy,2017-07-12
+375,10:52 AM,89F,52%,10mph,Mostly Cloudy,2017-07-12
+376,11:52 AM,93F,47%,8mph,Partly Cloudy,2017-07-12
+377,12:52 PM,92F,47%,6mph,Mostly Cloudy,2017-07-12
+378,1:52 PM,93F,47%,8mph,Cloudy,2017-07-12
+379,2:52 PM,93F,49%,13mph,Cloudy,2017-07-12
+380,3:52 PM,94F,46%,13mph,Cloudy,2017-07-12
+381,4:52 PM,94F,44%,10mph,Cloudy,2017-07-12
+382,5:52 PM,93F,44%,12mph,Mostly Cloudy,2017-07-12
+383,6:52 PM,92F,48%,9mph,Cloudy,2017-07-12
+384,7:52 PM,90F,54%,7mph,Mostly Cloudy,2017-07-12
+385,8:52 PM,85F,77%,5mph,Partly Cloudy,2017-07-12
+386,9:52 PM,84F,79%,0mph,Partly Cloudy,2017-07-12
+387,10:52 PM,83F,77%,6mph,Mostly Cloudy,2017-07-12
+388,11:52 PM,83F,77%,6mph,Mostly Cloudy,2017-07-13
+389,12:52 AM,83F,79%,8mph,Cloudy,2017-07-13
+390,1:52 AM,81F,88%,8mph,Cloudy,2017-07-13
+391,2:09 AM,81F,85%,5mph,Cloudy,2017-07-13
+392,2:52 AM,81F,79%,8mph,Mostly Cloudy,2017-07-13
+393,3:52 AM,80F,79%,5mph,Partly Cloudy,2017-07-13
+394,4:52 AM,79F,82%,6mph,Partly Cloudy,2017-07-13
+395,5:52 AM,80F,79%,7mph,Partly Cloudy,2017-07-13
+396,6:52 AM,82F,74%,5mph,Partly Cloudy,2017-07-13
+397,7:52 AM,84F,74%,9mph,Partly Cloudy,2017-07-13
+398,8:52 AM,87F,69%,9mph,Partly Cloudy,2017-07-13
+399,9:52 AM,89F,65%,9mph,Mostly Cloudy,2017-07-13
+400,10:52 AM,94F,47%,13mph,Cloudy,2017-07-13
+401,11:52 AM,93F,50%,10mph,Cloudy,2017-07-13
+402,12:52 PM,95F,47%,9mph,Cloudy,2017-07-13
+403,1:52 PM,95F,50%,9mph,Cloudy,2017-07-13
+404,2:52 PM,94F,52%,15mph,Cloudy,2017-07-13
+405,3:52 PM,94F,54%,14mph,Mostly Cloudy,2017-07-13
+406,4:52 PM,95F,49%,14mph,Mostly Cloudy,2017-07-13
+407,5:52 PM,94F,47%,12mph,Mostly Cloudy,2017-07-13
+408,6:52 PM,92F,54%,9mph,Mostly Cloudy,2017-07-13
+409,7:52 PM,90F,57%,7mph,Mostly Cloudy,2017-07-13
+410,8:52 PM,89F,59%,6mph,Mostly Cloudy,2017-07-13
+411,9:52 PM,87F,61%,7mph,Cloudy,2017-07-13
+412,10:52 PM,85F,67%,6mph,Partly Cloudy,2017-07-13
+413,11:52 PM,86F,59%,5mph,Cloudy,2017-07-14
+414,12:52 AM,85F,61%,5mph,Mostly Cloudy,2017-07-14
+415,1:52 AM,83F,88%,6mph,Cloudy,2017-07-14
+416,2:52 AM,81F,85%,6mph,Mostly Cloudy,2017-07-14
+417,3:52 AM,80F,85%,8mph,Fair,2017-07-14
+418,4:22 AM,79F,88%,6mph,Fair,2017-07-14
+419,4:52 AM,79F,90%,7mph,Mostly Cloudy,2017-07-14
+420,5:52 AM,79F,90%,3mph,Cloudy,2017-07-14
+421,6:52 AM,81F,88%,7mph,Mostly Cloudy,2017-07-14
+422,7:52 AM,83F,85%,7mph,Mostly Cloudy,2017-07-14
+423,8:52 AM,86F,77%,8mph,Cloudy,2017-07-14
+424,9:52 AM,89F,70%,12mph,Fair,2017-07-14
+425,10:52 AM,90F,68%,9mph,Mostly Cloudy,2017-07-14
+426,11:52 AM,92F,64%,10mph,Mostly Cloudy,2017-07-14
+427,12:52 PM,97F,43%,16mph,Mostly Cloudy,2017-07-14
+428,1:52 PM,94F,54%,10mph,Mostly Cloudy,2017-07-14
+429,2:52 PM,94F,56%,10mph,Mostly Cloudy,2017-07-14
+430,3:28 PM,94F,52%,10mph,Thunder,2017-07-14
+431,3:37 PM,92F,54%,30mph,Thunder / Windy,2017-07-14
+432,3:44 PM,83F,67%,33mph,Light Rain with Thunder,2017-07-14
+433,3:49 PM,81F,74%,36mph,Heavy T-Storm / Windy,2017-07-14
+434,3:52 PM,78F,84%,35mph,Heavy T-Storm / Windy,2017-07-14
+435,3:55 PM,76F,87%,37mph,Heavy T-Storm / Windy,2017-07-14
+436,4:02 PM,75F,84%,35mph,Heavy T-Storm / Windy,2017-07-14
+437,4:08 PM,76F,79%,18mph,Heavy T-Storm,2017-07-14
+438,4:15 PM,74F,87%,10mph,Heavy T-Storm,2017-07-14
+439,4:34 PM,73F,93%,3mph,Heavy T-Storm,2017-07-14
+440,4:52 PM,74F,93%,5mph,Light Rain with Thunder,2017-07-14
+441,5:17 PM,76F,91%,6mph,Light Rain,2017-07-14
+442,5:21 PM,77F,84%,9mph,Light Rain with Thunder,2017-07-14
+443,5:41 PM,76F,91%,6mph,Light Rain,2017-07-14
+444,5:52 PM,77F,88%,3mph,Light Rain,2017-07-14
+445,6:52 PM,77F,88%,3mph,Cloudy,2017-07-14
+446,7:52 PM,77F,88%,6mph,Mostly Cloudy,2017-07-14
+447,8:52 PM,76F,94%,3mph,Mostly Cloudy,2017-07-14
+448,9:52 PM,77F,88%,7mph,Cloudy,2017-07-14
+449,10:43 PM,76F,97%,6mph,Partly Cloudy,2017-07-14
+450,10:52 PM,76F,94%,5mph,Partly Cloudy,2017-07-14
+451,11:28 PM,77F,90%,9mph,Mostly Cloudy,2017-07-15
+452,11:52 PM,77F,90%,6mph,Mostly Cloudy,2017-07-15
+453,12:52 AM,76F,97%,5mph,Cloudy,2017-07-15
+454,1:15 AM,76F,97%,3mph,Cloudy,2017-07-15
+455,1:52 AM,76F,97%,0mph,Partly Cloudy,2017-07-15
+456,2:52 AM,76F,97%,5mph,Partly Cloudy,2017-07-15
+457,3:52 AM,76F,94%,8mph,Mostly Cloudy,2017-07-15
+458,4:26 AM,76F,94%,6mph,Cloudy,2017-07-15
+459,4:52 AM,76F,91%,8mph,Cloudy,2017-07-15
+460,5:52 AM,77F,88%,6mph,Cloudy,2017-07-15
+461,6:52 AM,79F,77%,6mph,Mostly Cloudy,2017-07-15
+462,7:15 AM,80F,74%,10mph,Mostly Cloudy,2017-07-15
+463,7:52 AM,80F,69%,8mph,Mostly Cloudy,2017-07-15
+464,8:52 AM,83F,65%,14mph,Mostly Cloudy,2017-07-15
+465,9:52 AM,83F,65%,14mph,Mostly Cloudy,2017-07-15
+466,10:52 AM,86F,57%,13mph,Mostly Cloudy,2017-07-15
+467,11:52 AM,88F,49%,14mph,Mostly Cloudy,2017-07-15
+468,12:52 PM,88F,45%,15mph,Mostly Cloudy,2017-07-15
+469,1:52 PM,88F,46%,13mph,Mostly Cloudy,2017-07-15
+470,2:52 PM,89F,40%,10mph,Mostly Cloudy,2017-07-15
+471,3:52 PM,88F,43%,13mph,Partly Cloudy,2017-07-15
+472,4:52 PM,88F,42%,8mph,Fair,2017-07-15
+473,5:52 PM,87F,43%,12mph,Fair,2017-07-15
+474,6:52 PM,85F,46%,12mph,Fair,2017-07-15
+475,7:52 PM,83F,51%,10mph,Fair,2017-07-15
+476,8:52 PM,81F,54%,10mph,Partly Cloudy,2017-07-15
+477,9:52 PM,80F,56%,9mph,Partly Cloudy,2017-07-15
+478,10:52 PM,79F,56%,9mph,Mostly Cloudy,2017-07-15
+479,11:52 PM,77F,62%,7mph,Partly Cloudy,2017-07-16
+480,12:52 AM,76F,64%,9mph,Partly Cloudy,2017-07-16
+481,1:52 AM,75F,66%,9mph,Partly Cloudy,2017-07-16
+482,2:52 AM,72F,73%,7mph,Partly Cloudy,2017-07-16
+483,3:52 AM,73F,68%,0mph,Fair,2017-07-16
+484,4:52 AM,71F,75%,6mph,Fair,2017-07-16
+485,5:52 AM,73F,76%,3mph,Fair,2017-07-16
+486,6:52 AM,76F,64%,5mph,Fair,2017-07-16
+487,7:52 AM,78F,62%,7mph,Fair,2017-07-16
+488,8:52 AM,80F,52%,6mph,Fair,2017-07-16
+489,9:52 AM,82F,52%,6mph,Fair,2017-07-16
+490,10:52 AM,84F,49%,9mph,Partly Cloudy,2017-07-16
+491,11:52 AM,85F,49%,9mph,Partly Cloudy,2017-07-16
+492,12:52 PM,85F,49%,10mph,Mostly Cloudy,2017-07-16
+493,1:52 PM,86F,48%,7mph,Partly Cloudy,2017-07-16
+494,2:52 PM,89F,45%,3mph,Partly Cloudy,2017-07-16
+495,3:52 PM,88F,46%,7mph,Mostly Cloudy,2017-07-16
+496,4:52 PM,88F,46%,5mph,Partly Cloudy,2017-07-16
+497,5:52 PM,87F,44%,3mph,Partly Cloudy,2017-07-16
+498,6:52 PM,85F,59%,10mph,Partly Cloudy,2017-07-16
+499,7:52 PM,82F,67%,8mph,Partly Cloudy,2017-07-16
+500,8:52 PM,81F,72%,10mph,Partly Cloudy,2017-07-16
+501,9:52 PM,80F,74%,9mph,Partly Cloudy,2017-07-16
+502,10:52 PM,80F,71%,9mph,Partly Cloudy,2017-07-16
+503,11:52 PM,79F,77%,9mph,Mostly Cloudy,2017-07-17
+504,12:52 AM,79F,79%,6mph,Mostly Cloudy,2017-07-17
+505,1:52 AM,77F,84%,5mph,Mostly Cloudy,2017-07-17
+506,2:52 AM,77F,88%,8mph,Partly Cloudy,2017-07-17
+507,3:52 AM,77F,90%,5mph,Partly Cloudy,2017-07-17
+508,4:52 AM,76F,94%,5mph,Mostly Cloudy,2017-07-17
+509,5:52 AM,77F,90%,5mph,Cloudy,2017-07-17
+510,6:01 AM,77F,90%,5mph,Cloudy,2017-07-17
+511,6:52 AM,78F,87%,5mph,Mostly Cloudy,2017-07-17
+512,7:52 AM,79F,84%,6mph,Mostly Cloudy,2017-07-17
+513,8:52 AM,82F,76%,5mph,Mostly Cloudy,2017-07-17
+514,9:52 AM,85F,72%,7mph,Mostly Cloudy,2017-07-17
+515,10:52 AM,87F,63%,9mph,Mostly Cloudy,2017-07-17
+516,11:52 AM,87F,59%,9mph,Mostly Cloudy,2017-07-17
+517,12:52 PM,87F,61%,12mph,Mostly Cloudy,2017-07-17
+518,1:10 PM,88F,55%,9mph,Thunder,2017-07-17
+519,1:29 PM,87F,59%,9mph,Mostly Cloudy,2017-07-17
+520,1:41 PM,87F,57%,10mph,Light Rain with Thunder,2017-07-17
+521,1:52 PM,88F,57%,10mph,Thunder,2017-07-17
+522,2:23 PM,90F,55%,10mph,Cloudy,2017-07-17
+523,2:52 PM,89F,55%,9mph,Mostly Cloudy,2017-07-17
+524,3:52 PM,90F,46%,12mph,Mostly Cloudy,2017-07-17
+525,4:52 PM,87F,59%,8mph,Thunder,2017-07-17
+526,5:20 PM,85F,65%,12mph,Partly Cloudy,2017-07-17
+527,5:52 PM,87F,61%,6mph,Partly Cloudy,2017-07-17
+528,6:52 PM,83F,79%,16mph,Mostly Cloudy,2017-07-17
+529,7:10 PM,85F,69%,9mph,Mostly Cloudy,2017-07-17
+530,7:22 PM,85F,67%,13mph,Mostly Cloudy,2017-07-17
+531,7:52 PM,83F,72%,13mph,Cloudy,2017-07-17
+532,8:52 PM,81F,77%,8mph,Mostly Cloudy,2017-07-17
+533,9:52 PM,80F,81%,10mph,Mostly Cloudy,2017-07-17
+534,10:52 PM,80F,81%,5mph,Mostly Cloudy,2017-07-17
+535,11:52 PM,79F,88%,8mph,Mostly Cloudy,2017-07-18
+536,12:52 AM,79F,90%,9mph,Mostly Cloudy,2017-07-18
+537,1:52 AM,78F,90%,6mph,Mostly Cloudy,2017-07-18
+538,2:52 AM,78F,90%,7mph,Mostly Cloudy,2017-07-18
+539,3:52 AM,78F,90%,7mph,Mostly Cloudy,2017-07-18
+540,5:52 AM,77F,88%,8mph,Fair,2017-07-18
+541,6:52 AM,80F,76%,3mph,Fair,2017-07-18
+542,7:52 AM,81F,79%,5mph,Fair,2017-07-18
+543,8:52 AM,83F,74%,3mph,Fair,2017-07-18
+544,9:52 AM,85F,72%,7mph,Partly Cloudy,2017-07-18
+545,10:52 AM,88F,63%,7mph,Partly Cloudy,2017-07-18
+546,11:52 AM,90F,61%,8mph,Partly Cloudy,2017-07-18
+547,12:52 PM,90F,63%,15mph,Mostly Cloudy,2017-07-18
+548,1:52 PM,91F,57%,14mph,Mostly Cloudy,2017-07-18
+549,2:52 PM,91F,52%,8mph,Mostly Cloudy,2017-07-18
+550,3:52 PM,91F,55%,13mph,Cloudy,2017-07-18
+551,3:58 PM,91F,57%,13mph,Thunder,2017-07-18
+552,4:21 PM,86F,61%,22mph,Thunder / Windy,2017-07-18
+553,4:36 PM,84F,61%,15mph,Thunder,2017-07-18
+554,4:52 PM,82F,65%,9mph,Mostly Cloudy,2017-07-18
+555,5:27 PM,83F,63%,6mph,Mostly Cloudy,2017-07-18
+556,5:52 PM,83F,69%,3mph,Mostly Cloudy,2017-07-18
+557,6:52 PM,83F,72%,0mph,Partly Cloudy,2017-07-18
+558,7:52 PM,83F,74%,8mph,Partly Cloudy,2017-07-18
+559,8:52 PM,83F,77%,8mph,Partly Cloudy,2017-07-18
+560,9:52 PM,82F,79%,8mph,Partly Cloudy,2017-07-18
+561,10:52 PM,81F,85%,8mph,Partly Cloudy,2017-07-18
+562,11:52 PM,81F,85%,6mph,Partly Cloudy,2017-07-19
+563,12:52 AM,80F,87%,7mph,Partly Cloudy,2017-07-19
+564,1:52 AM,79F,88%,6mph,Partly Cloudy,2017-07-19
+565,2:52 AM,79F,84%,5mph,Partly Cloudy,2017-07-19
+566,3:52 AM,78F,90%,3mph,Fair,2017-07-19
+567,4:52 AM,77F,90%,5mph,Partly Cloudy,2017-07-19
+568,5:52 AM,78F,87%,5mph,Fair,2017-07-19
+569,6:52 AM,81F,82%,0mph,Fair,2017-07-19
+570,7:52 AM,82F,79%,3mph,Fair,2017-07-19
+571,8:52 AM,85F,74%,6mph,Partly Cloudy,2017-07-19
+572,9:52 AM,88F,65%,6mph,Partly Cloudy,2017-07-19
+573,10:52 AM,91F,52%,6mph,Fair,2017-07-19
+574,11:52 AM,92F,47%,6mph,Fair,2017-07-19
+575,12:52 PM,93F,52%,10mph,Fair,2017-07-19
+576,1:52 PM,91F,55%,10mph,Partly Cloudy,2017-07-19
+577,2:52 PM,94F,51%,10mph,Mostly Cloudy,2017-07-19
+578,3:52 PM,96F,36%,5mph,Mostly Cloudy,2017-07-19
+579,4:52 PM,95F,44%,5mph,Mostly Cloudy,2017-07-19
+580,5:52 PM,93F,45%,10mph,Partly Cloudy,2017-07-19
+581,6:52 PM,91F,50%,12mph,Partly Cloudy,2017-07-19
+582,7:52 PM,89F,53%,8mph,Partly Cloudy,2017-07-19
+583,8:52 PM,86F,70%,10mph,Partly Cloudy,2017-07-19
+584,9:52 PM,85F,72%,7mph,Fair,2017-07-19
+585,10:52 PM,84F,76%,7mph,Fair,2017-07-19
+586,11:52 PM,83F,79%,8mph,Mostly Cloudy,2017-07-20
+587,12:52 AM,82F,82%,6mph,Mostly Cloudy,2017-07-20
+588,1:52 AM,81F,85%,5mph,Mostly Cloudy,2017-07-20
+589,2:52 AM,81F,82%,5mph,Partly Cloudy,2017-07-20
+590,3:52 AM,80F,81%,6mph,Fair,2017-07-20
+591,4:52 AM,79F,84%,5mph,Mostly Cloudy,2017-07-20
+592,5:52 AM,81F,79%,0mph,Mostly Cloudy,2017-07-20
+593,6:52 AM,83F,74%,0mph,Mostly Cloudy,2017-07-20
+594,7:52 AM,87F,65%,7mph,Mostly Cloudy,2017-07-20
+595,8:52 AM,91F,55%,7mph,Mostly Cloudy,2017-07-20
+596,9:52 AM,92F,52%,8mph,Mostly Cloudy,2017-07-20
+597,10:52 AM,94F,49%,6mph,Mostly Cloudy,2017-07-20
+598,11:52 AM,95F,44%,7mph,Partly Cloudy,2017-07-20
+599,12:52 PM,97F,39%,8mph,Partly Cloudy,2017-07-20
+600,1:52 PM,96F,40%,7mph,Mostly Cloudy,2017-07-20
+601,2:52 PM,96F,40%,10mph,Cloudy,2017-07-20
+602,3:52 PM,97F,39%,10mph,Mostly Cloudy,2017-07-20
+603,4:52 PM,97F,34%,9mph,Cloudy,2017-07-20
+604,5:52 PM,95F,40%,10mph,Cloudy,2017-07-20
+605,6:52 PM,91F,63%,8mph,Mostly Cloudy,2017-07-20
+606,7:52 PM,89F,65%,8mph,Mostly Cloudy,2017-07-20
+607,8:52 PM,88F,70%,9mph,Mostly Cloudy,2017-07-20
+608,9:52 PM,87F,69%,7mph,Mostly Cloudy,2017-07-20
+609,10:52 PM,86F,77%,6mph,Cloudy,2017-07-20
+610,11:52 PM,85F,80%,0mph,Mostly Cloudy,2017-07-21
+611,12:52 AM,86F,59%,8mph,Fair,2017-07-21
+612,1:52 AM,85F,59%,7mph,Cloudy,2017-07-21
+613,2:52 AM,86F,57%,6mph,Cloudy,2017-07-21
+614,3:52 AM,84F,67%,0mph,Partly Cloudy,2017-07-21
+615,4:52 AM,82F,71%,3mph,Mostly Cloudy,2017-07-21
+616,5:52 AM,84F,63%,6mph,Mostly Cloudy,2017-07-21
+617,6:52 AM,86F,61%,8mph,Mostly Cloudy,2017-07-21
+618,7:52 AM,88F,59%,12mph,Mostly Cloudy,2017-07-21
+619,8:52 AM,89F,57%,9mph,Partly Cloudy,2017-07-21
+620,9:52 AM,92F,50%,3mph,Partly Cloudy,2017-07-21
+621,10:52 AM,91F,50%,5mph,Partly Cloudy,2017-07-21
+622,11:52 AM,92F,50%,6mph,Mostly Cloudy,2017-07-21
+623,12:52 PM,93F,52%,9mph,Mostly Cloudy,2017-07-21
+624,1:52 PM,93F,52%,0mph,Cloudy,2017-07-21
+625,2:52 PM,95F,46%,8mph,Mostly Cloudy,2017-07-21
+626,3:52 PM,96F,44%,7mph,Mostly Cloudy,2017-07-21
+627,4:52 PM,94F,46%,6mph,Mostly Cloudy,2017-07-21
+628,5:52 PM,93F,49%,5mph,Mostly Cloudy,2017-07-21
+629,6:52 PM,91F,57%,7mph,Mostly Cloudy,2017-07-21
+630,7:52 PM,90F,63%,6mph,Mostly Cloudy,2017-07-21
+631,8:52 PM,90F,63%,8mph,Mostly Cloudy,2017-07-21
+632,9:52 PM,88F,70%,5mph,Cloudy,2017-07-21
+633,10:52 PM,87F,69%,9mph,Mostly Cloudy,2017-07-21
+634,11:52 PM,84F,74%,9mph,Cloudy,2017-07-22
+635,12:52 AM,83F,72%,10mph,Cloudy,2017-07-22
+636,1:52 AM,82F,76%,10mph,Cloudy,2017-07-22
+637,2:52 AM,81F,79%,9mph,Cloudy,2017-07-22
+638,3:06 AM,81F,79%,10mph,Cloudy,2017-07-22
+639,3:52 AM,81F,79%,7mph,Cloudy,2017-07-22
+640,4:52 AM,80F,79%,9mph,Cloudy,2017-07-22
+641,5:20 AM,80F,79%,9mph,Cloudy,2017-07-22
+642,5:52 AM,80F,79%,12mph,Cloudy,2017-07-22
+643,6:25 AM,81F,77%,12mph,Cloudy,2017-07-22
+644,6:52 AM,81F,77%,10mph,Cloudy,2017-07-22
+645,7:52 AM,84F,72%,6mph,Cloudy,2017-07-22
+646,8:52 AM,86F,65%,3mph,Cloudy,2017-07-22
+647,9:52 AM,89F,59%,5mph,Cloudy,2017-07-22
+648,10:52 AM,92F,52%,5mph,Cloudy,2017-07-22
+649,11:52 AM,93F,47%,0mph,Cloudy,2017-07-22
+650,12:52 PM,94F,44%,13mph,Mostly Cloudy,2017-07-22
+651,1:24 PM,93F,47%,8mph,Mostly Cloudy,2017-07-22
+652,1:35 PM,91F,50%,29mph,Light Rain with Thunder,2017-07-22
+653,1:46 PM,82F,62%,29mph,Light Rain with Thunder,2017-07-22
+654,1:52 PM,79F,72%,24mph,Heavy T-Storm / Windy,2017-07-22
+655,1:54 PM,77F,79%,25mph,Heavy T-Storm / Windy,2017-07-22
+656,1:56 PM,76F,85%,24mph,Heavy T-Storm / Windy,2017-07-22
+657,2:01 PM,74F,93%,17mph,Heavy T-Storm,2017-07-22
+658,2:05 PM,75F,94%,13mph,Light Rain with Thunder,2017-07-22
+659,2:16 PM,76F,94%,8mph,Light Rain,2017-07-22
+660,2:31 PM,77F,88%,0mph,Light Rain,2017-07-22
+661,2:52 PM,78F,84%,6mph,Cloudy,2017-07-22
+662,3:52 PM,82F,74%,5mph,Mostly Cloudy,2017-07-22
+663,4:20 PM,83F,72%,8mph,Mostly Cloudy,2017-07-22
+664,4:43 PM,83F,69%,13mph,Thunder,2017-07-22
+665,4:52 PM,82F,69%,17mph,Thunder,2017-07-22
+666,4:57 PM,81F,74%,29mph,Heavy T-Storm / Windy,2017-07-22
+667,5:02 PM,76F,87%,20mph,Heavy T-Storm,2017-07-22
+668,5:12 PM,76F,87%,10mph,Heavy T-Storm,2017-07-22
+669,5:17 PM,76F,87%,10mph,Light Rain with Thunder,2017-07-22
+670,5:27 PM,76F,87%,7mph,Light Rain,2017-07-22
+671,5:52 PM,76F,85%,0mph,Light Rain,2017-07-22
+672,6:52 PM,77F,82%,0mph,Cloudy,2017-07-22
+673,7:52 PM,76F,91%,8mph,Light Rain,2017-07-22
+674,8:03 PM,76F,87%,7mph,Light Rain,2017-07-22
+675,8:25 PM,76F,91%,6mph,Light Rain with Thunder,2017-07-22
+676,8:48 PM,75F,94%,18mph,Heavy T-Storm,2017-07-22
+677,8:52 PM,76F,94%,16mph,Heavy T-Storm,2017-07-22
+678,8:59 PM,76F,94%,12mph,Light Rain with Thunder,2017-07-22
+679,9:11 PM,76F,94%,10mph,Thunder,2017-07-22
+680,9:38 PM,76F,91%,6mph,Heavy T-Storm,2017-07-22
+681,9:42 PM,75F,96%,3mph,Heavy T-Storm,2017-07-22
+682,9:49 PM,75F,94%,5mph,Heavy T-Storm,2017-07-22
+683,9:52 PM,75F,96%,0mph,Heavy T-Storm,2017-07-22
+684,9:57 PM,76F,94%,0mph,Light Rain with Thunder,2017-07-22
+685,10:47 PM,75F,94%,8mph,Cloudy,2017-07-22
+686,10:52 PM,75F,96%,8mph,Cloudy,2017-07-22
+687,11:52 PM,75F,96%,5mph,Light Rain,2017-07-23
+688,12:52 AM,75F,96%,5mph,Light Rain,2017-07-23
+689,12:59 AM,76F,97%,5mph,Cloudy,2017-07-23
+690,1:06 AM,76F,97%,6mph,Cloudy,2017-07-23
+691,1:52 AM,76F,97%,5mph,Cloudy,2017-07-23
+692,2:43 AM,75F,96%,5mph,Partly Cloudy,2017-07-23
+693,2:52 AM,75F,96%,6mph,Mostly Cloudy,2017-07-23
+694,3:52 AM,75F,96%,3mph,Cloudy,2017-07-23
+695,4:05 AM,75F,96%,0mph,Mostly Cloudy,2017-07-23
+696,4:10 AM,75F,96%,0mph,Mostly Cloudy,2017-07-23
+697,4:44 AM,75F,100%,3mph,Mostly Cloudy,2017-07-23
+698,4:52 AM,75F,100%,0mph,Mostly Cloudy,2017-07-23
+699,5:52 AM,76F,97%,0mph,Mostly Cloudy,2017-07-23
+700,6:52 AM,77F,94%,0mph,Cloudy,2017-07-23
+701,7:52 AM,80F,85%,0mph,Cloudy,2017-07-23
+702,8:52 AM,82F,82%,3mph,Cloudy,2017-07-23
+703,9:52 AM,85F,72%,0mph,Mostly Cloudy,2017-07-23
+704,10:52 AM,88F,59%,12mph,Mostly Cloudy,2017-07-23
+705,11:52 AM,89F,61%,5mph,Cloudy,2017-07-23
+706,12:52 PM,83F,79%,14mph,Heavy Rain,2017-07-23
+707,12:56 PM,81F,85%,21mph,Heavy Rain / Windy,2017-07-23
+708,1:02 PM,78F,93%,20mph,Heavy Rain,2017-07-23
+709,1:11 PM,77F,96%,13mph,T-Storm,2017-07-23
+710,1:15 PM,77F,94%,9mph,Light Rain with Thunder,2017-07-23
+711,1:20 PM,77F,96%,7mph,Light Rain,2017-07-23
+712,1:52 PM,82F,90%,9mph,Mostly Cloudy,2017-07-23
+713,2:39 PM,80F,87%,12mph,Mostly Cloudy,2017-07-23
+714,2:41 PM,79F,90%,13mph,Mostly Cloudy,2017-07-23
+715,2:52 PM,80F,87%,10mph,Mostly Cloudy,2017-07-23
+716,3:52 PM,82F,85%,6mph,Cloudy,2017-07-23
+717,4:52 PM,84F,79%,3mph,Mostly Cloudy,2017-07-23
+718,5:24 PM,84F,79%,6mph,Mostly Cloudy,2017-07-23
+719,5:28 PM,83F,82%,18mph,Thunder,2017-07-23
+720,5:37 PM,75F,87%,17mph,Heavy T-Storm,2017-07-23
+721,5:39 PM,74F,93%,17mph,Heavy T-Storm,2017-07-23
+722,5:41 PM,73F,96%,17mph,Heavy T-Storm,2017-07-23
+723,5:49 PM,73F,100%,16mph,Heavy T-Storm,2017-07-23
+724,5:52 PM,73F,100%,15mph,Heavy T-Storm,2017-07-23
+725,5:58 PM,73F,96%,12mph,Heavy T-Storm,2017-07-23
+726,6:02 PM,74F,97%,10mph,Light Rain,2017-07-23
+727,6:08 PM,74F,97%,6mph,Light Rain,2017-07-23
+728,6:52 PM,77F,84%,0mph,Mostly Cloudy,2017-07-23
+729,7:52 PM,78F,84%,0mph,Mostly Cloudy,2017-07-23
+730,8:52 PM,77F,90%,0mph,Cloudy,2017-07-23
+731,9:50 PM,79F,89%,0mph,Light Rain with Thunder,2017-07-23
+732,9:52 PM,78F,93%,5mph,Light Rain with Thunder,2017-07-23
+733,10:05 PM,77F,94%,8mph,Heavy T-Storm,2017-07-23
+734,10:09 PM,77F,96%,12mph,Heavy Rain,2017-07-23
+735,10:22 PM,77F,90%,8mph,Light Rain with Thunder,2017-07-23
+736,10:33 PM,78F,93%,7mph,T-Storm,2017-07-23
+737,10:49 PM,75F,94%,14mph,Light Rain with Thunder,2017-07-23
+738,10:52 PM,76F,94%,16mph,Light Rain with Thunder,2017-07-23
+739,10:56 PM,76F,94%,13mph,Light Rain with Thunder,2017-07-23
+740,11:25 PM,76F,94%,12mph,Cloudy,2017-07-24
+741,11:52 PM,76F,91%,10mph,Cloudy,2017-07-24
+742,12:25 AM,75F,94%,5mph,Cloudy,2017-07-24
+743,12:52 AM,74F,93%,5mph,Mostly Cloudy,2017-07-24
+744,1:52 AM,77F,90%,8mph,Cloudy,2017-07-24
+745,2:52 AM,76F,91%,5mph,Mostly Cloudy,2017-07-24
+746,3:52 AM,76F,91%,6mph,Cloudy,2017-07-24
+747,4:52 AM,78F,81%,3mph,Mostly Cloudy,2017-07-24
+748,5:52 AM,77F,88%,8mph,Light Rain,2017-07-24
+749,6:52 AM,78F,84%,6mph,Mostly Cloudy,2017-07-24
+750,7:52 AM,81F,72%,8mph,Cloudy,2017-07-24
+751,8:52 AM,82F,69%,12mph,Cloudy,2017-07-24
+752,9:52 AM,85F,59%,9mph,Partly Cloudy,2017-07-24
+753,10:52 AM,86F,57%,12mph,Partly Cloudy,2017-07-24
+754,11:52 AM,87F,57%,6mph,Mostly Cloudy,2017-07-24
+755,12:52 PM,90F,50%,6mph,Cloudy,2017-07-24
+756,1:52 PM,89F,50%,10mph,Cloudy,2017-07-24
+757,2:52 PM,90F,46%,0mph,Cloudy,2017-07-24
+758,3:52 PM,88F,61%,12mph,Mostly Cloudy,2017-07-24
+759,4:52 PM,85F,72%,7mph,Mostly Cloudy,2017-07-24
+760,5:52 PM,85F,74%,7mph,Mostly Cloudy,2017-07-24
+761,6:52 PM,85F,72%,7mph,Partly Cloudy,2017-07-24
+762,7:52 PM,85F,72%,8mph,Mostly Cloudy,2017-07-24
+763,8:52 PM,85F,69%,7mph,Mostly Cloudy,2017-07-24
+764,9:52 PM,83F,67%,15mph,Mostly Cloudy,2017-07-24
+765,10:52 PM,81F,69%,13mph,Cloudy,2017-07-24
+766,11:52 PM,79F,72%,13mph,Mostly Cloudy,2017-07-25
+767,12:52 AM,79F,62%,13mph,Cloudy,2017-07-25
+768,1:52 AM,77F,62%,16mph,Cloudy,2017-07-25
+769,2:52 AM,75F,62%,10mph,Cloudy,2017-07-25
+770,3:52 AM,73F,64%,13mph,Mostly Cloudy,2017-07-25
+771,4:52 AM,72F,61%,10mph,Mostly Cloudy,2017-07-25
+772,5:52 AM,71F,61%,9mph,Cloudy,2017-07-25
+773,6:52 AM,72F,61%,9mph,Mostly Cloudy,2017-07-25
+774,7:52 AM,74F,59%,15mph,Partly Cloudy,2017-07-25
+775,8:52 AM,76F,58%,14mph,Partly Cloudy,2017-07-25
+776,9:52 AM,78F,56%,12mph,Partly Cloudy,2017-07-25
+777,10:52 AM,78F,56%,12mph,Mostly Cloudy,2017-07-25
+778,11:52 AM,79F,56%,10mph,Cloudy,2017-07-25
+779,12:52 PM,81F,52%,8mph,Mostly Cloudy,2017-07-25
+780,1:52 PM,79F,56%,10mph,Mostly Cloudy,2017-07-25
+781,2:52 PM,80F,56%,15mph,Mostly Cloudy,2017-07-25
+782,3:52 PM,82F,52%,10mph,Mostly Cloudy,2017-07-25
+783,4:52 PM,80F,54%,13mph,Mostly Cloudy,2017-07-25
+784,5:52 PM,80F,52%,10mph,Partly Cloudy,2017-07-25
+785,6:52 PM,78F,56%,12mph,Mostly Cloudy,2017-07-25
+786,7:52 PM,77F,62%,9mph,Mostly Cloudy,2017-07-25
+787,8:52 PM,75F,64%,12mph,Partly Cloudy,2017-07-25
+788,9:52 PM,75F,66%,9mph,Fair,2017-07-25
+789,10:52 PM,74F,68%,8mph,Fair,2017-07-25
+790,11:52 PM,74F,68%,8mph,Fair,2017-07-26
+791,12:52 AM,73F,71%,9mph,Fair,2017-07-26
+792,1:52 AM,72F,73%,8mph,Fair,2017-07-26
+793,2:52 AM,71F,75%,9mph,Partly Cloudy,2017-07-26
+794,3:52 AM,69F,81%,9mph,Partly Cloudy,2017-07-26
+795,4:52 AM,69F,84%,5mph,Mostly Cloudy,2017-07-26
+796,5:52 AM,70F,84%,6mph,Partly Cloudy,2017-07-26
+797,6:52 AM,72F,81%,7mph,Partly Cloudy,2017-07-26
+798,7:52 AM,75F,76%,3mph,Mostly Cloudy,2017-07-26
+799,8:52 AM,77F,74%,0mph,Partly Cloudy,2017-07-26
+800,9:52 AM,78F,60%,0mph,Partly Cloudy,2017-07-26
+801,10:52 AM,81F,54%,3mph,Partly Cloudy,2017-07-26
+802,11:52 AM,83F,46%,5mph,Partly Cloudy,2017-07-26
+803,12:52 PM,83F,49%,6mph,Partly Cloudy,2017-07-26
+804,1:52 PM,83F,51%,5mph,Partly Cloudy,2017-07-26
+805,2:52 PM,85F,48%,5mph,Mostly Cloudy,2017-07-26
+806,3:52 PM,84F,46%,0mph,Mostly Cloudy,2017-07-26
+807,4:52 PM,85F,46%,8mph,Partly Cloudy,2017-07-26
+808,5:52 PM,84F,46%,9mph,Partly Cloudy,2017-07-26
+809,6:52 PM,81F,67%,14mph,Partly Cloudy,2017-07-26
+810,7:52 PM,79F,69%,12mph,Partly Cloudy,2017-07-26
+811,8:52 PM,77F,76%,8mph,Fair,2017-07-26
+812,9:52 PM,76F,85%,9mph,Partly Cloudy,2017-07-26
+813,10:52 PM,75F,87%,7mph,Partly Cloudy,2017-07-26
+814,11:52 PM,74F,87%,7mph,Partly Cloudy,2017-07-27
+815,12:52 AM,74F,87%,12mph,Cloudy,2017-07-27
+816,1:52 AM,74F,87%,9mph,Fair,2017-07-27
+817,2:39 AM,74F,87%,10mph,Mostly Cloudy,2017-07-27
+818,2:52 AM,74F,85%,9mph,Mostly Cloudy,2017-07-27
+819,3:52 AM,73F,87%,8mph,Mostly Cloudy,2017-07-27
+820,4:00 AM,73F,87%,8mph,Mostly Cloudy,2017-07-27
+821,4:23 AM,73F,87%,6mph,Cloudy,2017-07-27
+822,4:52 AM,73F,84%,13mph,Cloudy,2017-07-27
+823,5:52 AM,73F,84%,12mph,Cloudy,2017-07-27
+824,6:52 AM,74F,85%,10mph,Cloudy,2017-07-27
+825,7:52 AM,76F,82%,10mph,Mostly Cloudy,2017-07-27
+826,8:52 AM,77F,79%,9mph,Cloudy,2017-07-27
+827,9:03 AM,78F,76%,9mph,Cloudy,2017-07-27
+828,9:52 AM,79F,79%,10mph,Cloudy,2017-07-27
+829,10:52 AM,82F,74%,10mph,Cloudy,2017-07-27
+830,11:49 AM,82F,74%,8mph,Cloudy,2017-07-27
+831,11:52 AM,83F,72%,8mph,Cloudy,2017-07-27
+832,12:52 PM,83F,69%,10mph,Cloudy,2017-07-27
+833,1:01 PM,84F,69%,12mph,Cloudy,2017-07-27
+834,1:52 PM,85F,67%,8mph,Cloudy,2017-07-27
+835,2:52 PM,84F,74%,9mph,Cloudy,2017-07-27
+836,3:26 PM,84F,74%,8mph,Cloudy,2017-07-27
+837,3:44 PM,86F,72%,8mph,Cloudy,2017-07-27
+838,3:52 PM,85F,72%,8mph,Cloudy,2017-07-27
+839,4:52 PM,84F,76%,9mph,Cloudy,2017-07-27
+840,5:52 PM,84F,76%,10mph,Cloudy,2017-07-27
+841,6:52 PM,83F,79%,7mph,Cloudy,2017-07-27
+842,7:52 PM,83F,79%,7mph,Light Rain with Thunder,2017-07-27
+843,8:11 PM,83F,79%,6mph,Cloudy,2017-07-27
+844,8:52 PM,82F,82%,6mph,Cloudy,2017-07-27
+845,9:52 PM,81F,85%,7mph,Partly Cloudy,2017-07-27
+846,10:52 PM,80F,87%,7mph,Mostly Cloudy,2017-07-27
+847,11:52 PM,79F,90%,5mph,Mostly Cloudy,2017-07-28
+848,12:52 AM,79F,84%,5mph,Light Rain,2017-07-28
+849,1:52 AM,79F,84%,8mph,Fair,2017-07-28
+850,2:52 AM,77F,88%,8mph,Fair,2017-07-28
+851,3:52 AM,77F,84%,5mph,Mostly Cloudy,2017-07-28
+852,4:52 AM,76F,87%,7mph,Mostly Cloudy,2017-07-28
+853,5:19 AM,76F,87%,7mph,Cloudy,2017-07-28
+854,5:22 AM,76F,87%,7mph,Cloudy,2017-07-28
+855,5:38 AM,76F,87%,3mph,Cloudy,2017-07-28
+856,5:52 AM,76F,91%,3mph,Cloudy,2017-07-28
+857,6:52 AM,78F,84%,6mph,Mostly Cloudy,2017-07-28
+858,7:05 AM,78F,87%,7mph,Mostly Cloudy,2017-07-28
+859,7:52 AM,79F,82%,3mph,Cloudy,2017-07-28
+860,8:04 AM,79F,84%,3mph,Cloudy,2017-07-28
+861,8:23 AM,79F,84%,5mph,Cloudy,2017-07-28
+862,8:52 AM,80F,85%,3mph,Cloudy,2017-07-28
+863,9:52 AM,81F,82%,0mph,Light Rain,2017-07-28
+864,10:01 AM,81F,85%,0mph,Light Rain,2017-07-28
+865,10:25 AM,80F,87%,0mph,Light Rain,2017-07-28
+866,10:28 AM,80F,87%,0mph,Heavy Rain,2017-07-28
+867,10:34 AM,80F,87%,3mph,Light Rain,2017-07-28
+868,10:52 AM,80F,90%,7mph,Light Rain,2017-07-28
+869,10:55 AM,79F,94%,8mph,Heavy Rain,2017-07-28
+870,11:00 AM,78F,96%,9mph,Rain,2017-07-28
+871,11:10 AM,77F,100%,10mph,Heavy Rain,2017-07-28
+872,11:26 AM,77F,100%,6mph,Light Rain,2017-07-28
+873,11:29 AM,77F,100%,6mph,Light Rain,2017-07-28
+874,11:32 AM,77F,96%,3mph,Light Rain,2017-07-28
+875,11:34 AM,77F,96%,0mph,Light Rain,2017-07-28
+876,11:38 AM,78F,93%,0mph,Light Rain,2017-07-28
+877,11:48 AM,77F,94%,5mph,Light Rain with Thunder,2017-07-28
+878,11:52 AM,77F,94%,6mph,Light Rain with Thunder,2017-07-28
+879,11:56 AM,77F,96%,5mph,Light Rain with Thunder,2017-07-28
+880,12:01 PM,77F,94%,7mph,Light Rain with Thunder,2017-07-28
+881,12:06 PM,77F,94%,7mph,Light Rain,2017-07-28
+882,12:52 PM,76F,97%,13mph,Cloudy,2017-07-28
+883,1:28 PM,76F,97%,13mph,Light Rain,2017-07-28
+884,1:46 PM,75F,94%,8mph,Light Rain,2017-07-28
+885,1:52 PM,76F,97%,6mph,Rain,2017-07-28
+886,1:59 PM,75F,96%,5mph,Heavy T-Storm,2017-07-28
+887,2:11 PM,75F,94%,13mph,Heavy T-Storm,2017-07-28
+888,2:46 PM,73F,100%,9mph,Heavy T-Storm,2017-07-28
+889,2:52 PM,74F,97%,10mph,Heavy T-Storm,2017-07-28
+890,3:04 PM,73F,96%,13mph,T-Storm,2017-07-28
+891,3:07 PM,73F,96%,15mph,T-Storm,2017-07-28
+892,3:24 PM,74F,93%,13mph,Heavy T-Storm,2017-07-28
+893,3:36 PM,74F,93%,12mph,Heavy T-Storm,2017-07-28
+894,3:52 PM,73F,96%,13mph,Heavy Rain,2017-07-28
+895,3:56 PM,73F,96%,13mph,Heavy Rain,2017-07-28
+896,4:10 PM,74F,91%,12mph,Heavy Rain,2017-07-28
+897,4:18 PM,73F,93%,9mph,Heavy Rain,2017-07-28
+898,4:21 PM,73F,93%,8mph,Heavy T-Storm,2017-07-28
+899,4:52 PM,72F,97%,13mph,T-Storm,2017-07-28
+900,5:02 PM,72F,97%,13mph,Light Rain with Thunder,2017-07-28
+901,5:34 PM,73F,96%,9mph,Light Rain with Thunder,2017-07-28
+902,5:52 PM,73F,96%,8mph,Light Rain with Thunder,2017-07-28
+903,6:31 PM,73F,93%,9mph,T-Storm,2017-07-28
+904,6:41 PM,73F,93%,7mph,Light Rain,2017-07-28
+905,6:52 PM,74F,93%,8mph,Cloudy,2017-07-28
+906,7:00 PM,74F,91%,9mph,Cloudy,2017-07-28
+907,7:52 PM,74F,91%,8mph,Cloudy,2017-07-28
+908,8:07 PM,74F,93%,6mph,Cloudy,2017-07-28
+909,8:29 PM,73F,96%,6mph,Heavy Rain,2017-07-28
+910,8:35 PM,73F,96%,7mph,Heavy Rain,2017-07-28
+911,8:43 PM,73F,96%,3mph,Heavy Rain,2017-07-28
+912,8:50 PM,72F,100%,3mph,Heavy Rain,2017-07-28
+913,8:52 PM,72F,100%,0mph,Heavy Rain,2017-07-28
+914,8:55 PM,72F,100%,3mph,Heavy Rain,2017-07-28
+915,9:03 PM,72F,100%,6mph,Heavy Rain,2017-07-28
+916,9:06 PM,72F,100%,7mph,Heavy Rain,2017-07-28
+917,9:24 PM,72F,100%,9mph,Light Rain,2017-07-28
+918,9:40 PM,72F,97%,7mph,Light Rain,2017-07-28
+919,9:52 PM,73F,93%,8mph,Light Rain,2017-07-28
+920,9:59 PM,73F,96%,9mph,Cloudy,2017-07-28
+921,10:09 PM,73F,96%,13mph,Cloudy,2017-07-28
+922,10:26 PM,73F,96%,12mph,Rain,2017-07-28
+923,10:37 PM,73F,96%,14mph,Rain,2017-07-28
+924,10:44 PM,73F,96%,16mph,Heavy Rain,2017-07-28
+925,10:52 PM,73F,96%,16mph,Light Rain,2017-07-28
+926,11:04 PM,73F,96%,17mph,Rain,2017-07-29
+927,11:11 PM,73F,96%,15mph,Light Rain,2017-07-29
+928,11:24 PM,73F,96%,10mph,Heavy Rain,2017-07-29
+929,11:29 PM,72F,100%,14mph,Heavy Rain,2017-07-29
+930,11:37 PM,72F,100%,17mph,Heavy Rain,2017-07-29
+931,11:43 PM,72F,100%,15mph,Heavy Rain,2017-07-29
+932,11:52 PM,72F,97%,22mph,Heavy Rain / Windy,2017-07-29
+933,12:00 AM,71F,100%,21mph,Heavy Rain / Windy,2017-07-29
+934,12:08 AM,71F,100%,18mph,Heavy Rain,2017-07-29
+935,12:19 AM,71F,100%,15mph,Heavy Rain,2017-07-29
+936,12:31 AM,71F,96%,18mph,Heavy Rain,2017-07-29
+937,12:52 AM,71F,96%,14mph,Light Rain,2017-07-29
+938,1:21 AM,72F,93%,16mph,Cloudy,2017-07-29
+939,1:52 AM,71F,96%,16mph,Cloudy,2017-07-29
+940,2:18 AM,71F,93%,16mph,Light Rain,2017-07-29
+941,2:45 AM,71F,93%,14mph,Thunder in the Vicinity,2017-07-29
+942,2:52 AM,71F,93%,14mph,Thunder in the Vicinity,2017-07-29
+943,3:06 AM,71F,93%,10mph,Cloudy,2017-07-29
+944,3:24 AM,71F,96%,10mph,Cloudy,2017-07-29
+945,3:50 AM,72F,94%,10mph,Cloudy,2017-07-29
+946,3:52 AM,72F,93%,10mph,Light Rain,2017-07-29
+947,4:47 AM,72F,88%,14mph,Cloudy,2017-07-29
+948,4:52 AM,72F,91%,13mph,Cloudy,2017-07-29
+949,5:14 AM,72F,87%,13mph,Cloudy,2017-07-29
+950,5:40 AM,72F,87%,12mph,Cloudy,2017-07-29
+951,5:52 AM,72F,87%,12mph,Cloudy,2017-07-29
+952,6:52 AM,72F,87%,16mph,Mostly Cloudy,2017-07-29
+953,6:55 AM,72F,87%,16mph,Cloudy,2017-07-29
+954,7:39 AM,71F,84%,17mph,Cloudy,2017-07-29
+955,7:46 AM,72F,83%,17mph,Cloudy,2017-07-29
+956,7:52 AM,70F,87%,16mph,Light Rain,2017-07-29
+957,8:33 AM,72F,81%,18mph,Mostly Cloudy,2017-07-29
+958,8:52 AM,74F,76%,21mph,Mostly Cloudy / Windy,2017-07-29
+959,9:08 AM,73F,76%,20mph,Cloudy,2017-07-29
+960,9:24 AM,74F,76%,18mph,Cloudy,2017-07-29
+961,9:52 AM,73F,76%,23mph,Cloudy / Windy,2017-07-29
+962,9:59 AM,73F,73%,24mph,Cloudy / Windy,2017-07-29
+963,10:12 AM,73F,71%,23mph,Cloudy / Windy,2017-07-29
+964,10:52 AM,73F,71%,21mph,Cloudy / Windy,2017-07-29
+965,11:52 AM,72F,76%,22mph,Light Rain / Windy,2017-07-29
+966,12:16 PM,69F,84%,21mph,Light Rain / Windy,2017-07-29
+967,12:19 PM,68F,87%,21mph,Rain / Windy,2017-07-29
+968,12:43 PM,70F,81%,18mph,Light Rain,2017-07-29
+969,12:52 PM,70F,81%,16mph,Light Rain,2017-07-29
+970,1:52 PM,74F,73%,16mph,Light Rain,2017-07-29
+971,2:52 PM,73F,73%,15mph,Light Rain,2017-07-29
+972,3:52 PM,75F,71%,12mph,Light Rain,2017-07-29
+973,4:52 PM,77F,52%,20mph,Cloudy,2017-07-29
+974,5:52 PM,75F,57%,16mph,Mostly Cloudy,2017-07-29
+975,6:52 PM,75F,51%,17mph,Mostly Cloudy,2017-07-29
+976,7:52 PM,74F,52%,16mph,Mostly Cloudy,2017-07-29
+977,8:52 PM,73F,53%,15mph,Mostly Cloudy,2017-07-29
+978,9:52 PM,72F,53%,15mph,Mostly Cloudy,2017-07-29
+979,10:52 PM,70F,55%,15mph,Mostly Cloudy,2017-07-29
+980,11:52 PM,69F,58%,10mph,Mostly Cloudy,2017-07-30
+981,12:52 AM,67F,63%,8mph,Mostly Cloudy,2017-07-30
+982,1:52 AM,66F,68%,10mph,Mostly Cloudy,2017-07-30
+983,2:52 AM,65F,73%,8mph,Mostly Cloudy,2017-07-30
+984,3:52 AM,65F,70%,9mph,Fair,2017-07-30
+985,4:52 AM,63F,72%,7mph,Fair,2017-07-30
+986,5:52 AM,64F,72%,8mph,Fair,2017-07-30
+987,6:52 AM,67F,68%,8mph,Fair,2017-07-30
+988,7:52 AM,71F,59%,8mph,Fair,2017-07-30
+989,8:52 AM,74F,55%,7mph,Fair,2017-07-30
+990,9:52 AM,77F,46%,7mph,Fair,2017-07-30
+991,10:52 AM,78F,45%,3mph,Fair,2017-07-30
+992,11:52 AM,80F,40%,12mph,Fair,2017-07-30
+993,12:52 PM,81F,39%,9mph,Fair,2017-07-30
+994,1:52 PM,83F,39%,8mph,Fair,2017-07-30
+995,2:52 PM,83F,39%,12mph,Fair,2017-07-30
+996,3:52 PM,83F,38%,9mph,Fair,2017-07-30
+997,4:52 PM,83F,37%,7mph,Fair,2017-07-30
+998,5:52 PM,82F,39%,7mph,Fair,2017-07-30
+999,6:52 PM,80F,42%,8mph,Fair,2017-07-30
+1000,7:52 PM,76F,50%,6mph,Fair,2017-07-30
+1001,8:52 PM,75F,64%,5mph,Fair,2017-07-30
+1002,9:52 PM,74F,62%,0mph,Fair,2017-07-30
+1003,10:52 PM,72F,66%,5mph,Partly Cloudy,2017-07-30
+1004,11:52 PM,70F,73%,3mph,Fair,2017-07-31
+1005,12:52 AM,69F,81%,3mph,Fair,2017-07-31
+1006,1:52 AM,67F,81%,0mph,Fair,2017-07-31
+1007,2:52 AM,68F,78%,0mph,Fair,2017-07-31
+1008,3:52 AM,67F,87%,0mph,Fair,2017-07-31
+1009,4:52 AM,67F,84%,0mph,Fair,2017-07-31
+1010,5:52 AM,68F,81%,0mph,Fair,2017-07-31
+1011,6:52 AM,71F,73%,0mph,Partly Cloudy,2017-07-31
+1012,7:52 AM,76F,58%,6mph,Mostly Cloudy,2017-07-31
+1013,8:52 AM,77F,62%,3mph,Mostly Cloudy,2017-07-31
+1014,9:52 AM,83F,49%,3mph,Partly Cloudy,2017-07-31
+1015,10:52 AM,84F,46%,0mph,Fair,2017-07-31
+1016,11:52 AM,86F,44%,6mph,Partly Cloudy,2017-07-31
+1017,12:52 PM,88F,43%,7mph,Partly Cloudy,2017-07-31
+1018,1:52 PM,87F,43%,0mph,Partly Cloudy,2017-07-31
+1019,2:52 PM,91F,39%,0mph,Partly Cloudy,2017-07-31
+1020,3:52 PM,88F,40%,3mph,Mostly Cloudy,2017-07-31
+1021,4:52 PM,88F,42%,0mph,Mostly Cloudy,2017-07-31
+1022,5:52 PM,88F,43%,7mph,Mostly Cloudy,2017-07-31
+1023,6:52 PM,83F,58%,10mph,Partly Cloudy,2017-07-31
+1024,7:52 PM,80F,64%,6mph,Fair,2017-07-31
+1025,8:52 PM,78F,74%,5mph,Fair,2017-07-31
+1026,9:52 PM,77F,74%,7mph,Fair,2017-07-31
+1027,10:52 PM,76F,74%,3mph,Partly Cloudy,2017-07-31
