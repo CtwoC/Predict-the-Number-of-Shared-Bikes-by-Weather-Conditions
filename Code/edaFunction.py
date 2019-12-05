@@ -80,7 +80,7 @@ class edaFunction:
 
     def workingdayEDA(self):
         print("The count of workingday bike using shows below :\n", self.dframe.groupby('workingday')['cnt'].sum())
-        self.dframe.groupby('workingday')['cnt'].sum().plot(kind = 'bar', figsize = (6, 4), color = self.color)
+        self.dframe.groupby('workingday')['cnt'].mean().plot(kind = 'bar', figsize = (6, 4), color = self.color)
 
     def weatherTypeEDA(self):
         print("The count of Weather Tpye bike using shows below :\n", self.dframe.groupby('weather')['cnt'].sum())
