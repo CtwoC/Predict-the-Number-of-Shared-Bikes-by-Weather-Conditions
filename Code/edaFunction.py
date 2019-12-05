@@ -3,11 +3,12 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-plt.style.use('classic')
+# plt.style.use('classic')
 
 class edaFunction:
     def __init__(self, dframe):
         self.dframe = dframe
+        self.color = sns.color_palette()
 
     # check info
     def ckInfo(self):
@@ -71,45 +72,47 @@ class edaFunction:
 
     def seasonEDA(self):
         print("The count of season bike using shows below :\n", self.dframe.groupby('season')['cnt'].sum())
-        self.dframe.groupby('season')['cnt'].sum().plot(kind='bar', figsize=(20, 4))
+        self.dframe.groupby('season')['cnt'].sum().plot(kind='bar', figsize=(6, 4), color = self.color)
 
     def holidayEDA(self):
         print("The count of holiday bike using shows below :\n", self.dframe.groupby('holiday')['cnt'].sum())
-        self.dframe.groupby('holiday')['cnt'].sum().plot(kind = 'bar', figsize = (20, 4))
+        self.dframe.groupby('holiday')['cnt'].mean().plot(kind = 'bar', figsize = (6, 4), color = self.color)
 
     def workingdayEDA(self):
         print("The count of workingday bike using shows below :\n", self.dframe.groupby('workingday')['cnt'].sum())
-        self.dframe.groupby('workingday')['cnt'].sum().plot(kind = 'bar', figsize = (20, 4))
+        self.dframe.groupby('workingday')['cnt'].sum().plot(kind = 'bar', figsize = (6, 4), color = self.color)
 
     def weatherTypeEDA(self):
         print("The count of Weather Tpye bike using shows below :\n", self.dframe.groupby('weather')['cnt'].sum())
-        self.dframe.groupby('weather')['cnt'].sum().plot(kind = 'bar', figsize = (20, 4))
+        self.dframe.groupby('weather')['cnt'].sum().plot(kind = 'bar', figsize = (6, 4), color = self.color)
 
-    def weekendEDA(self):
-        print("The count of weekend bike using shows below :\n", self.dframe.groupby('weekend')['cnt'].sum())
-        self.dframe.groupby('weekend')['cnt'].sum().plot(kind = 'bar', figsize = (20, 4))
+    # def weekendEDA(self):
+    #     print("The count of weekend bike using shows below :\n", self.dframe.groupby('weekend')['cnt'].sum())
+    #     self.dframe.groupby('weekend')['cnt'].sum().plot(kind = 'bar', figsize = (20, 4))
 
     def hourEDA(self):
-        self.dframe.groupby('hour')['cnt'].sum().plot(kind = 'bar', figsize = (20, 4))
+        ax1 = self.dframe.groupby('hour')['cnt'].sum().plot(kind = 'line', figsize = (6, 4), color = 'red', label = 'line')
+        self.dframe.groupby('hour')['cnt'].sum().plot(kind = 'bar', figsize = (6, 4), color = 'blue')
+        plt.legend(loc = 'upper right')
 
     def dayEDA(self):
-        self.dframe.groupby('day')['cnt'].sum().plot(kind = 'bar', figsize = (20, 4))
+        self.dframe.groupby('day')['cnt'].sum().plot(kind = 'bar', figsize = (6, 4), color = 'blue')
     
     def monthEDA(self):
-        self.dframe.groupby('month')['cnt'].sum().plot(kind = 'bar', figsize = (20, 4))
+        self.dframe.groupby('month')['cnt'].sum().plot(kind = 'bar', figsize = (6, 4), color = 'blue')
 
     def yearEDA(self):
-        self.dframe.groupby('year')['cnt'].sum().plot(kind = 'bar', figsize = (20, 4))
+        self.dframe.groupby('year')['cnt'].sum().plot(kind = 'bar', figsize = (6, 4), color = self.color)
 
     def hists(self):
         fig,axes = plt.subplots(2,2)
-        axes[0,0].hist(x = "TF", data = self.dframe, edgecolor = "black", linewidth = 2, color = 'blue')
+        axes[0,0].hist(x = "TF", data = self.dframe, edgecolor = "black", linewidth = 2)
         axes[0,0].set_title("Variation of Temperature")
-        axes[0,1].hist(x = "TFF", data = self.dframe, edgecolor = "black",linewidth = 2, color = 'blue')
+        axes[0,1].hist(x = "TFF", data = self.dframe, edgecolor = "black",linewidth = 2)
         axes[0,1].set_title("Variation of Temperature Feels")
-        axes[1,0].hist(x = "    ", data = self.dframe, edgecolor = "black",linewidth = 2, color = 'blue')
+        axes[1,0].hist(x = "WindSpeed", data = self.dframe, edgecolor = "black",linewidth = 2)
         axes[1,0].set_title("Variation of WindSpeed")
-        axes[1,1].hist(x = "Humidity", data = self.dframe, edgecolor = "black", linewidth = 2, color = 'blue')
+        axes[1,1].hist(x = "Humidity", data = self.dframe, edgecolor = "black", linewidth = 2)
         axes[1,1].set_title("Variation of Humidity")
         fig.set_size_inches(10,10)
     
@@ -118,7 +121,7 @@ class edaFunction:
         mask = np.array(cor_mat)
         mask[np.tril_indices_from(mask)] = False
         fig=plt.gcf()
-        fig.set_size_inches(40,20)
+        fig.set_size_inches(50,30)
         sns.heatmap(data = cor_mat, mask = mask, square = True, annot = True, cbar = True)
 
 
