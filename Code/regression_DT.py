@@ -150,9 +150,9 @@ olsdc2.fit( X_train, y_train )
 olsdc2score2 = olsdc2.score(X_test, y_test)
 regtree2score2 = regtree2.score(X_test, y_test)
 
-y_pred_ols = olsdc2.predict(X_test)  # Predict test set labels/values
+y_pred_ols2 = olsdc2.predict(X_test)  # Predict test set labels/values
 
-mse_ols2 = MSE(y_test, y_pred_ols)  # Compute mse_ols
+mse_ols2 = MSE(y_test, y_pred_ols2)  # Compute mse_ols
 rmse_ols2 = mse_ols2**(0.5)  # Compute rmse_ols
 
 print('Linear Regression test set RMSE2: {:.2f}'.format(rmse_ols2))
@@ -188,7 +188,7 @@ print('Test set RMSE2:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE
 from sklearn.tree import export_graphviz  
 
 filepath = os.path.join('tree2')
-export_graphviz(regtree1, out_file = filepath+'.dot' , feature_names =['s_1', 's_2', 's_3', 'hour','WindSpeed', 'workingday', 'TF', 'Humidity']) 
+export_graphviz(regtree2, out_file = filepath+'.dot' , feature_names =['s_1', 's_2', 's_3', 'hour','WindSpeed', 'workingday', 'TF', 'Humidity']) 
 
 #%%
 # regression tree
@@ -268,7 +268,7 @@ print('Test set RMSE3:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE
 from sklearn.tree import export_graphviz  
 
 filepath = os.path.join('tree3')
-export_graphviz(regtree1, out_file = filepath+'.dot' , feature_names =['s_1', 's_2', 's_3', 'hour','holiday','WindSpeed', 'workingday', 'TF', 'Humidity']) 
+export_graphviz(regtree3, out_file = filepath+'.dot' , feature_names =['s_1', 's_2', 's_3', 'hour','holiday','WindSpeed', 'workingday', 'TF', 'Humidity']) 
 
 #%%
 # regression tree
@@ -349,7 +349,7 @@ print('Test set RMSE4:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE
 from sklearn.tree import export_graphviz  
 
 filepath = os.path.join('tree4')
-export_graphviz(regtree1, out_file = filepath+'.dot' , feature_names =['s_1', 's_2', 's_3', 'hour','WindSpeed', 'workingday', 'TF', 'Humidity']) 
+export_graphviz(regtree4, out_file = filepath+'.dot' , feature_names =['s_1', 's_2', 's_3', 'hour','WindSpeed', 'workingday', 'TF', 'Humidity']) 
 
 #%%
 # regression tree
@@ -357,13 +357,13 @@ export_graphviz(regtree1, out_file = filepath+'.dot' , feature_names =['s_1', 's
 # Prepare our X data (features, predictors, regressors) and y data (target, dependent variable)
 
 # load file
-dc2017 = pd.read_csv("hour2017.csv")
+#dc2017 = pd.read_csv("hour2017.csv")
 # Using DC set as train, 2017 data as test
-X_train = dc[[ 'TF', 'Humidity', 'WindSpeed']]
-Y_train = dc['cnt']
+X_train = dc[['TF', 'Humidity', 'WindSpeed']]
+y_train = dc['cnt']
 
 X_test = dc2017[['TF', 'Humidity', 'WindSpeed']]
-Y_test = dc2017['cnt']
+y_test = dc2017['cnt']
 
 
 #%%
@@ -391,7 +391,7 @@ regtree5score5 = regtree5.score(X_test, y_test)
 
 y_pred_ols5 = olsdc5.predict(X_test)  # Predict test set labels/values
 
-mse_ols5 = MSE(y_test, y_pred_ols1)  # Compute mse_ols
+mse_ols5 = MSE(y_test, y_pred_ols5)  # Compute mse_ols
 rmse_ols5 = mse_ols5**(0.5)  # Compute rmse_ols
 
 print('Linear Regression test set RMSE5: {:.2f}'.format(rmse_ols5))
@@ -427,4 +427,7 @@ print('Test set RMSE5:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE
 from sklearn.tree import export_graphviz  
 
 filepath = os.path.join('tree5')
-export_graphviz(regtree1, out_file = filepath+'.dot' , feature_names =['TF', 'Humidity', 'WindSpeed']) 
+export_graphviz(regtree5, out_file = filepath+'.dot' , feature_names =['TF', 'Humidity', 'WindSpeed']) 
+
+
+# %%
