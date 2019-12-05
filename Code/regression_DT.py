@@ -56,6 +56,9 @@ regtree1.fit(X_train, y_train)
 y_pred1 = regtree1.predict(X_test)  # Compute y_pred
 mse_regtree1 = MSE(y_test, y_pred1)  # Compute mse_regtree1
 rmse_regtree1 = mse_regtree1 ** (.5) # Compute rmse_regtree1
+regtree1score1 = regtree1.score(X_test, y_test)
+
+print("Test set score of regtree1: {:.2f}".format(regtree1score1))
 print("Test set RMSE of regtree1: {:.2f}".format(rmse_regtree1))
 
 
@@ -66,11 +69,14 @@ olsdc1 = linear_model.LinearRegression()
 olsdc1.fit( X_train, y_train )
 
 y_pred_ols1 = olsdc1.predict(X_test)  # Predict test set labels/values
+olsdc1score1 = olsdc1.score(X_test, y_test)
 
 mse_ols1 = MSE(y_test, y_pred_ols1)  # Compute mse_ols
 rmse_ols1 = mse_ols1**(0.5)  # Compute rmse_ols
 
+print('Linear Regression test set score1: {:.2f}'.format(olsdc1score1))
 print('Linear Regression test set RMSE1: {:.2f}'.format(rmse_ols1))
+print('Regression Tree test set score1: {:.2f}'.format(regtree1score1))
 print('Regression Tree test set RMSE1: {:.2f}'.format(rmse_regtree1))
 
 #
@@ -141,6 +147,9 @@ print("Test set RMSE of regtree2: {:.2f}".format(rmse_regtree2))
 olsdc2 = linear_model.LinearRegression() 
 olsdc2.fit( X_train, y_train )
 
+olsdc2score2 = olsdc2.score(X_test, y_test)
+regtree2score2 = regtree2.score(X_test, y_test)
+
 y_pred_ols = olsdc2.predict(X_test)  # Predict test set labels/values
 
 mse_ols2 = MSE(y_test, y_pred_ols)  # Compute mse_ols
@@ -148,7 +157,8 @@ rmse_ols2 = mse_ols2**(0.5)  # Compute rmse_ols
 
 print('Linear Regression test set RMSE2: {:.2f}'.format(rmse_ols2))
 print('Regression Tree test set RMSE2: {:.2f}'.format(rmse_regtree2))
-
+print('Linear Regression test set score2: {:.2f}'.format(olsdc2score2))
+print('Regression Tree test set score2: {:.2f}'.format(regtree2score2))
 #
 #%%
 # Instantiate a DecisionTreeRegressor dt
@@ -217,6 +227,9 @@ print("Test set RMSE of regtree3: {:.2f}".format(rmse_regtree3))
 olsdc3 = linear_model.LinearRegression() 
 olsdc3.fit( X_train, y_train )
 
+olsdc3score3 = olsdc3.score(X_test, y_test)
+regtree3score3 = regtree3.score(X_test, y_test)
+
 y_pred_ols3 = olsdc3.predict(X_test)  # Predict test set labels/values
 
 mse_ols3 = MSE(y_test, y_pred_ols3)  # Compute mse_ols
@@ -224,7 +237,8 @@ rmse_ols3 = mse_ols3**(0.5)  # Compute rmse_ols
 
 print('Linear Regression test set RMSE3: {:.2f}'.format(rmse_ols3))
 print('Regression Tree test set RMSE3: {:.2f}'.format(rmse_regtree3))
-
+print('Linear Regression test set score3: {:.2f}'.format(olsdc3score3))
+print('Regression Tree test set score3: {:.2f}'.format(regtree3score3))
 #
 #%%
 # Instantiate a DecisionTreeRegressor dt
@@ -293,6 +307,9 @@ print("Test set RMSE4 of regtree4: {:.2f}".format(rmse_regtree4))
 olsdc4 = linear_model.LinearRegression() 
 olsdc4.fit( X_train, y_train )
 
+olsdc4score4 = olsdc4.score(X_test, y_test)
+regtree4score4 = regtree4.score(X_test, y_test)
+
 y_pred_ols4 = olsdc4.predict(X_test)  # Predict test set labels/values
 
 mse_ols4 = MSE(y_test, y_pred_ols4)  # Compute mse_ols
@@ -300,6 +317,8 @@ rmse_ols4 = mse_ols4**(0.5)  # Compute rmse_ols
 
 print('Linear Regression test set RMSE4: {:.2f}'.format(rmse_ols4))
 print('Regression Tree test set RMSE4: {:.2f}'.format(rmse_regtree4))
+print('Linear Regression test set score4: {:.2f}'.format(olsdc4score4))
+print('Regression Tree test set score4: {:.2f}'.format(regtree4score4))
 
 #
 #%%
@@ -367,6 +386,9 @@ print("Test set RMSE of regtree5: {:.2f}".format(rmse_regtree5))
 olsdc5 = linear_model.LinearRegression() 
 olsdc5.fit( X_train, y_train )
 
+olsdc5score5 = olsdc5.score(X_test, y_test)
+regtree5score5 = regtree5.score(X_test, y_test)
+
 y_pred_ols5 = olsdc5.predict(X_test)  # Predict test set labels/values
 
 mse_ols5 = MSE(y_test, y_pred_ols1)  # Compute mse_ols
@@ -374,7 +396,8 @@ rmse_ols5 = mse_ols5**(0.5)  # Compute rmse_ols
 
 print('Linear Regression test set RMSE5: {:.2f}'.format(rmse_ols5))
 print('Regression Tree test set RMSE5: {:.2f}'.format(rmse_regtree5))
-
+print('Linear Regression test set score5: {:.2f}'.format(olsdc5score5))
+print('Regression Tree test set score5: {:.2f}'.format(regtree5score5))
 #
 #%%
 # Instantiate a DecisionTreeRegressor dt
