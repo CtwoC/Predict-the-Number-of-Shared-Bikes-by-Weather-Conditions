@@ -4,8 +4,12 @@ import pandas as pd
 
 # load file
 dc = pd.read_csv("../DataSet/hour.csv")
+dc2017 = pd.read_csv("../DataSet/hour2017.csv")
+
 # london = pd.read_csv("../DataSet/london_merged.csv")
 
+
+#%%
 # preprocess
 dc = dc.rename(columns={'yr':'year', 'mnth':'month', 'hr':'hour', 'weekday':'day', 'weathersit':'weather', 'temp':'TF', 'atemp':'TFF', 'hum':'Humidity', 'windspeed':'WindSpeed'})
 # london = london.rename(columns={'weather_code':'weather', 't1':'TF', 't2':'TFF', 'hum':'Humidity', 'wind_speed':'WindSpeed', 'is_holiday': 'holiday', 'is_weekend': 'weekend'})
@@ -14,6 +18,13 @@ dc = dc.rename(columns={'yr':'year', 'mnth':'month', 'hr':'hour', 'weekday':'day
 # london["month"] = [t.month for t in pd.DatetimeIndex(london.timestamp)]
 # london['year'] = [t.year for t in pd.DatetimeIndex(london.timestamp)]
 # london['year'] = london['year'].map({2015:0, 2016:1})
+
+dc2017['TF'] = dc2017['TF'].map(lambda x: x.rstrip('F'))
+dc2017['Humidity'] = dc2017['TF'].map(lambda x: x.rstrip('%'))
+dc2017['WindSpeed'] = dc2017['TF'].map(lambda x: x.rstrip('mph'))
+dc2017['Humidity'] = dc2017[]
+
+
 
 dcEDA = eda.edaFunction(dc)
 # LondonEDA = eda.edaFunction(london)
@@ -73,8 +84,5 @@ dcEDA.hists()
 # corelationMatrix
 dcEDA.corelationMatrix()
 # LondonEDA.corelationMatrix()
-
-
-
 
 # %%
