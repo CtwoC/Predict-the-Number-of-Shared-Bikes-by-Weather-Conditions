@@ -821,7 +821,7 @@ regtree5.fit(X_train, y_train)  # Fit 'regtree1' to the training set
 y_predict_train = regtree5.predict(X_train)  # Predict the labels of training set
 y_predict_test = regtree5.predict(X_test)  # Predict the labels of test set
 
-print('CV RMSE5:', MSE_CV1.mean()**(0.5) )  #CV MSE 
+print('CV RMSE5:', MSE_CV5.mean()**(0.5) )  #CV MSE 
 print('Training set RMSE5:', MSE(y_train, y_predict_train)**(0.5) )   # Training set MSE
 print('Test set RMSE5:', MSE(y_test, y_predict_test)**(0.5) )   # Test set MSE 
 
