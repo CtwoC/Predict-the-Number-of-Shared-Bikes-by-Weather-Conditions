@@ -24,10 +24,17 @@ dc= pd.concat([dc, Season_dummies], axis=1)
 
 X = dc[['s_1', 's_2', 's_3']]
 Y = dc['TF']
-modeldc0 = ols(formula= 'Y ~ X' , data=dc).fit()
-print(modeldc0.summary())
+modelseason0 = ols(formula= 'Y ~ X' , data=dc).fit()
+print(modelseason0.summary())
 
 # we can see from the result that the rank of average temperature for four seasons from low to high is : s_1, s_4, s_2, s_3
+# %%
+# Using all variables showing in the data set and 'cnt' as the dependent variable
+X = dc[['holiday', 'workingday', 'TF', 'TFF', 'Humidity', 'WindSpeed']]
+Y = dc['cnt']
+modeldc0 = ols(formula= 'Y ~ X + C(hour) + C(weather) + C(season)' , data=dc).fit()
+print(modeldc0.summary())
+
 #%%
 # Part A:
 # build a linear model for the number of Casual Users, and get rid of w_4 and s_4 to avoid multicolinearity
